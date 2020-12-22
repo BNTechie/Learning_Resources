@@ -5,4 +5,6 @@ I list down some of the resource links I very often come across and take help fr
 
 1. https://github.com/louisfb01/Best_AI_paper_2020
 2. Machine Learning Mastery by Jason - https://machinelearningmastery.com/ (This one is my favourite.)
+3. Probability concepts explained: Maximum likelihood estimation (https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1)
+4.Some intutitive questions on Data Science: https://career-accelerator.corsairs.network/99-questions-every-entry-level-analyst-should-be-able-to-answer-68cb45f9c91a
 
