@@ -8,6 +8,7 @@ I list down some of the resource links I very often come across and take help fr
 3. Probability concepts explained: Maximum likelihood estimation (https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1)
 
 4.Some intutitive questions on Data Science: https://career-accelerator.corsairs.network/99-questions-every-entry-level-analyst-should-be-able-to-answer-68cb45f9c91a
+5.https://whats-ai.medium.com/top-10-computer-vision-papers-2020-aa606985f688
 
 Some uploaded files are collection of interview questions from different resources. Enjoy reading!
 
