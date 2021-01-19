@@ -88,11 +88,17 @@ GAFT: https://github.com/pytlab/gaft
 
 
 
-Some short reads:
+## Some short reads:
+
 5 Beginner-Friendly Steps to Learn Machine Learning and Data Science with Python — Daniel Bourke
 What is Machine Learning? — Roberto Iriondo
+
 Machine Learning for Beginners: An Introduction to Neural Networks — Victor Zhou
+
 A Beginners Guide to Neural Networks — Thomas Davis
+
 Understanding Neural Networks — Prince Canuma
+
 Reading lists for new MILA students — Anonymous
+
 The 80/20 AI Reading List — Vishal Maini
