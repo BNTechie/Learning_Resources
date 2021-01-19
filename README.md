@@ -13,5 +13,8 @@ I list down some of the resource links I very often come across and take help fr
 
 6.https://github.com/louisfb01/Top-10-Computer-Vision-Papers-2020
 
+7. https://medium.com/towards-artificial-intelligence/start-machine-learning-in-2020-become-an-expert-from-nothing-for-free-f31587630cf7 by  Louis (What’s AI) Bouchard
+
+
 Some uploaded files are collection of interview questions from different resources. Enjoy reading!
 
