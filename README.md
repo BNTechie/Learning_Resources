@@ -18,3 +18,70 @@ I list down some of the resource links I very often come across and take help fr
 
 Some uploaded files are collection of interview questions from different resources. Enjoy reading!
 
+Resources on specific topics(collected over the years working with several colaborators and my own research)
+
+Deep learning
+=============
+- Tensorflow: https://github.com/tensorflow/tensorflow
+- TFLearn: https://github.com/tflearn/tflearn
+- PyTorch: https://github.com/pytorch/pytorch
+- Apache MXNET: https://github.com/apache/incubator-mxnet
+- Theano: https://github.com/Theano/Theano
+- Caffe: https://github.com/BVLC/caffe and
+- Caffe2: https://caffe2.ai/docs/tutorials.html
+- Fast AI: https://github.com/fastai/fastai
+- CNTK: https://github.com/Microsoft/CNTK
+- Lasagne: https://github.com/Lasagne/Lasagne
+- Chainer: https://github.com/chainer/chainer
+- Nolearn: https://github.com/dnouri/nolearn
+- Elephas - https://github.com/maxpumperla/elephas
+- Spark deep learning: https://github.com/databricks/spark-deep-learning
+- Keras: https://github.com/keras-team/keras
+
+
+Bayesian inference/Advanced Statistics/Probabilistic models
+===========================================================
+All MCMC/SMC pacakges: https://gabriel-p.github.io/pythonMCMC/
+Bayesian deep learning: https://zhusuan.readthedocs.io/en/latest/
+Duke: https://people.duke.edu/~ccc14/sta-663/MCMC.html
+BayesPy: http://bayespy.org/examples/examples.html
+Statsmodels: https://github.com/statsmodels/statsmodels
+XGBoost: https://github.com/dmlc/xgboost
+LightGBM: https://github.com/Microsoft/LightGBM
+Catboost: https://github.com/catboost/catboost
+PyBrain: https://github.com/pybrain/pybrain
+Eli5: https://github.com/TeamHG-Memex/eli5
+
+
+Deep Learning- Variational autoencoders
+========================================
+1. https://zhusuan.readthedocs.io/en/latest/tutorials/vae.html Variational autoencoders
+2. https://github.com/kvfrans/variational-autoencoder.
+3. https://wiseodd.github.io/techblog/2016/12/10/variational-autoencoder/
+
+
+Python big data
+================
+Parallel computing: https://wiki.python.org/moin/ParallelProcessing
+GPU Compatbilit6y: https://docs.anaconda.com/anaconda/user-guide/tasks/gpu-packages/
+PyCUDA: https://documen.tician.de/pycuda/tutorial.html
+PyGPU: http://fileadmin.cs.lth.se/cs/Personal/calle_lejdfors/pygpu/
+AWS: https://aws.amazon.com/developer/language/python/ (see sample code and 10 mins tutorial)
+Apache Spark: https://spark.apache.org/docs/0.9.1/python-programming-guide.html
+PySpark: https://spark.apache.org/docs/0.9.1/python-programming-guide.html
+Apache Hadoop: https://hadoop.apache.org/
+
+
+Reinforcment Learning
+======================
+https://github.com/keras-rl/keras-rl
+OpenAI: https://github.com/openai/gym
+
+
+Optimization
+============
+Convex: https://cvxopt.org/
+Platypus: https://platypus.readthedocs.io/en/latest/
+PyGMO: http://esa.github.io/pygmo/
+DEAP: https://deap.readthedocs.io/en/master/examples/index.html
+GAFT: https://github.com/pytlab/gaft
