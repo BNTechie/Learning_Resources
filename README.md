@@ -102,3 +102,5 @@ Understanding Neural Networks — Prince Canuma
 Reading lists for new MILA students — Anonymous
 
 The 80/20 AI Reading List — Vishal Maini
+
+
