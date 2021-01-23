@@ -108,3 +108,8 @@ The 80/20 AI Reading List — Vishal Maini
 ##Some useful youtube link for simple demonstartion of ML topics:
 
 1.https://www.youtube.com/watch?v=8HyCNIVRbSU---LSTM 
+
+
+#Interview Questions:
+
+1.https://www.analyticsvidhya.com/blog/2020/04/comprehensive-popular-deep-learning-interview-questions-answers/
