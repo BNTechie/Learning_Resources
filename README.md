@@ -113,3 +113,13 @@ The 80/20 AI Reading List — Vishal Maini
 #Interview Questions:
 
 1.https://www.analyticsvidhya.com/blog/2020/04/comprehensive-popular-deep-learning-interview-questions-answers/
+
+
+2.https://intellipaat.com/blog/interview-question/deep-learning-interview-questions/ 
+
+
+3. https://www.edureka.co/blog/interview-questions/machine-learning-interview-questions/. from Edureka
+
+4. https://medium.com/modern-nlp/nlp-interview-questions-f062040f32f7 -- medium by 
+Pratik Bhavsar
+
