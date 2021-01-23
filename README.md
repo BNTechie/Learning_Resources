@@ -104,3 +104,7 @@ Reading lists for new MILA students — Anonymous
 The 80/20 AI Reading List — Vishal Maini
 
 
+
+##Some useful youtube link for simple demonstartion of ML topics:
+
+1.https://www.youtube.com/watch?v=8HyCNIVRbSU---LSTM 
