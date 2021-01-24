@@ -126,3 +126,6 @@ Pratik Bhavsar
 
 5. A simplictic way of understanding transformer model in NLP :https://www.analyticsvidhya.com/blog/2019/06/understanding-transformers-nlp-state-of-the-art-models/
 
+6. A brief discussion on BERT: https://towardsdatascience.com/understanding-bert-bidirectional-encoder-representations-from-transformers-45ee6cd51eef
+
+AI conference paper and presentation list: https://crossminds.ai/explore/
