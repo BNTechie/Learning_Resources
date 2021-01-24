@@ -121,5 +121,8 @@ The 80/20 AI Reading List — Vishal Maini
 3. https://www.edureka.co/blog/interview-questions/machine-learning-interview-questions/. from Edureka
 
 4. https://medium.com/modern-nlp/nlp-interview-questions-f062040f32f7 -- medium by 
+
 Pratik Bhavsar
+
+5. A simplictic way of understanding transformer model in NLP :https://www.analyticsvidhya.com/blog/2019/06/understanding-transformers-nlp-state-of-the-art-models/
 
