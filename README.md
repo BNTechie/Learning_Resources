@@ -129,3 +129,5 @@ Pratik Bhavsar
 6. A brief discussion on BERT: https://towardsdatascience.com/understanding-bert-bidirectional-encoder-representations-from-transformers-45ee6cd51eef
 
 AI conference paper and presentation list: https://crossminds.ai/explore/
+
+7. An excellent resource for text similarities in NLP
