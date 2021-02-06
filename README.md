@@ -131,3 +131,8 @@ Pratik Bhavsar
 AI conference paper and presentation list: https://crossminds.ai/explore/
 
 7. An excellent resource for text similarities in NLP
+
+8. What is CNN? Convolutional Neural Networks: The Biologically-Inspired Model
+
+https://www.codementor.io/@james_aka_yale/convolutional-neural-networks-the-biologically-inspired-model-iq6s48zms
+
