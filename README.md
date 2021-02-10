@@ -136,3 +136,7 @@ AI conference paper and presentation list: https://crossminds.ai/explore/
 
 https://www.codementor.io/@james_aka_yale/convolutional-neural-networks-the-biologically-inspired-model-iq6s48zms
 
+9 AI in drug discivery
+
+https://practicalcheminformatics.blogspot.com/2021/01/ai-in-drug-discovery-2020-highly.html
+
