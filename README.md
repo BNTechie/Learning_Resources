@@ -140,3 +140,5 @@ https://www.codementor.io/@james_aka_yale/convolutional-neural-networks-the-biol
 
 https://practicalcheminformatics.blogspot.com/2021/01/ai-in-drug-discovery-2020-highly.html
 
+10. An interesting github page on Data Science and Machine Learning: https://github.com/achuthasubhash/Complete-Life-Cycle-of-a-Data-Science-Project
+
