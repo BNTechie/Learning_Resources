@@ -142,3 +142,12 @@ https://practicalcheminformatics.blogspot.com/2021/01/ai-in-drug-discovery-2020-
 
 10. An interesting github page on Data Science and Machine Learning: https://github.com/achuthasubhash/Complete-Life-Cycle-of-a-Data-Science-Project
 
+
+
+## Bayesian Neural Network
+
+1. https://www.google.com/url?q=https://analyticsindiamag.com/hands-on-guide-to-bayesian-neural-network-in-classification/&sa=D&source=hangouts&ust=1620269400965000&usg=AFQjCNEteFofBga-tgHNRzxZraQwPYYWEA
+
+2. https://keras.io/examples/keras_recipes/bayesian_neural_networks/
+
+
