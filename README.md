@@ -151,3 +151,7 @@ https://practicalcheminformatics.blogspot.com/2021/01/ai-in-drug-discovery-2020-
 2. https://keras.io/examples/keras_recipes/bayesian_neural_networks/
 
 
+
+# https://towardsdatascience.com/how-to-distinguish-yourself-from-hundreds-of-data-science-candidates-62457dd8f385
+
+
