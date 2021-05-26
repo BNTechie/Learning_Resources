@@ -157,3 +157,6 @@ https://practicalcheminformatics.blogspot.com/2021/01/ai-in-drug-discovery-2020-
 https://towardsdatascience.com/how-to-distinguish-yourself-from-hundreds-of-data-science-candidates-62457dd8f385
 
 
+## Good blog post on NLP problem solving
+
+
