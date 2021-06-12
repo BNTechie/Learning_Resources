@@ -154,9 +154,19 @@ https://practicalcheminformatics.blogspot.com/2021/01/ai-in-drug-discovery-2020-
 
 ### How Can You Distinguish Yourself from Hundreds of Other Data Science Candidates?
 
+
+
+
 https://towardsdatascience.com/how-to-distinguish-yourself-from-hundreds-of-data-science-candidates-62457dd8f385
 
 
 ## Good blog post on NLP problem solving
+
+
+
+
+# Machine Learning in Bioinformatics
+https://www.kdnuggets.com/2019/09/explore-world-bioinformatics-machine-learning.html
+
 
 
