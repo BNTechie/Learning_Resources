@@ -166,7 +166,10 @@ https://towardsdatascience.com/how-to-distinguish-yourself-from-hundreds-of-data
 
 
 # Machine Learning in Bioinformatics
-https://www.kdnuggets.com/2019/09/explore-world-bioinformatics-machine-learning.html
+
+1.https://www.kdnuggets.com/2019/09/explore-world-bioinformatics-machine-learning.html
+
+2.https://medium.com/@alenaharley/tumor-classification-using-gene-expression-data-poking-at-a-problem-using-fast-ai-again-8633c2256c85
 
 
 
