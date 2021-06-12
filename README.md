@@ -172,4 +172,11 @@ https://towardsdatascience.com/how-to-distinguish-yourself-from-hundreds-of-data
 2.https://medium.com/@alenaharley/tumor-classification-using-gene-expression-data-poking-at-a-problem-using-fast-ai-again-8633c2256c85
 
 
+#Pathway analysis
+
+## Pathway enrichment analysis of metabolites
+
+1. Lilikoi: an R package for personalized pathway-based classification modeling using metabolomics data 
+   (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6290884/)
+
 
