@@ -184,6 +184,10 @@ https://towardsdatascience.com/how-to-distinguish-yourself-from-hundreds-of-data
 
 https://machinelearningmastery.com/calculate-feature-importance-with-python/
 
+# Phylogenetic association analysis related resources:
+
+1.https://dendropy.org/programs/sumtrees.html
+
 
 
 ## Some online resource for motivation
