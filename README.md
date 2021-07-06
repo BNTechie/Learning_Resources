@@ -180,3 +180,8 @@ https://towardsdatascience.com/how-to-distinguish-yourself-from-hundreds-of-data
    (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6290884/)
 
 
+
+## Some online resource for motivation
+
+1. Kobe Bryant: https://www.youtube.com/watch?v=VSceuiPBpxY
+
