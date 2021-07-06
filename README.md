@@ -178,6 +178,11 @@ https://towardsdatascience.com/how-to-distinguish-yourself-from-hundreds-of-data
 
 1. Lilikoi: an R package for personalized pathway-based classification modeling using metabolomics data 
    (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6290884/)
+   
+   
+# Feataure importance :
+
+https://machinelearningmastery.com/calculate-feature-importance-with-python/
 
 
 
