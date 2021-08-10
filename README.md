@@ -193,4 +193,5 @@ https://machinelearningmastery.com/calculate-feature-importance-with-python/
 ## Some online resource for motivation
 
 1. Kobe Bryant: https://www.youtube.com/watch?v=VSceuiPBpxY
+2. Bollywood Actor Anupam Kher with Gaur Gopal Das Best Indian Motivational Speaker
 
