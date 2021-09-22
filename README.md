@@ -189,6 +189,24 @@ https://machinelearningmastery.com/calculate-feature-importance-with-python/
 1.https://dendropy.org/programs/sumtrees.html
 
 
+# AutoML Resources:
+
+1. H2O AutoML - https://lnkd.in/gcxQSEW2
+2. AutoGluon - https://lnkd.in/gXcrqnU9
+3. AutoKeras - https://lnkd.in/ghsjphDt
+4. Auto-PyTorch - https://lnkd.in/gbbNQy5R
+5. Auto-sklearn - https://lnkd.in/g4MxeeVT
+6. EvalML - https://lnkd.in/gDjQX3At
+7. FLAML - https://lnkd.in/gUkiwqyb
+8. LightAutoML - https://lnkd.in/gU2-jccZ
+9. MLJAR - https://mljar.com/
+10. PyCaret AutoML - https://lnkd.in/gvw8DNv8
+11. TPOT - https://lnkd.in/g3z9YtuU
+
+A notebook by Rohan Rao with examples on  the above mentioned tools/libraries.
+
+https://www.kaggle.com/rohanrao/automl-tutorial-tps-september-2021
+
 
 ## Some online resource for motivation
 
