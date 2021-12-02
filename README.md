@@ -215,6 +215,10 @@ https://www.kaggle.com/rohanrao/automl-tutorial-tps-september-2021
 2. Bollywood Actor Anupam Kher with Gaur Gopal Das Best Indian Motivational Speaker
 3. https://www.youtube.com/watch?v=DGIjuVbGP_A
 
+## Videos on ML and healthcare
+
+1.https://www.youtube.com/watch?v=oyVnONlEZoA
+2. 
 
 ## Some free youtuber sharing how to learn DataScience:
 1. Ken Jee: https://www.youtube.com/c/KenJee1
