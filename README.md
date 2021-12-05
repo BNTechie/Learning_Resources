@@ -227,3 +227,6 @@ https://www.kaggle.com/rohanrao/automl-tutorial-tps-september-2021
 4. Andrew Mo: https://www.youtube.com/channel/UC23emuGbNM7twofQIrEgPBQ
 5. 
 
+
+## GWAS studies practical guide
+1. https://www.youtube.com/watch?v=nrbgly0Bcv8
