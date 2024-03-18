@@ -229,6 +229,7 @@ https://www.kaggle.com/rohanrao/automl-tutorial-tps-september-2021
 
 ## Some blogs on Statistics:
 https://learningstatisticswithr.com/
+https://advstats.psychstat.org/book/power/index.php (Online book for Free with example codes in R, I found it handy.)
 
 ## GWAS studies practical guide
 1. https://www.youtube.com/watch?v=nrbgly0Bcv8
