@@ -209,7 +209,7 @@ A notebook by Rohan Rao with examples on  the above mentioned tools/libraries.
 https://www.kaggle.com/rohanrao/automl-tutorial-tps-september-2021
 
 
-## Some online resource for motivation
+## Some online resources for motivation
 
 1. Kobe Bryant: https://www.youtube.com/watch?v=VSceuiPBpxY
 2. Bollywood Actor Anupam Kher with Gaur Gopal Das Best Indian Motivational Speaker
@@ -230,6 +230,14 @@ https://www.kaggle.com/rohanrao/automl-tutorial-tps-september-2021
 ## Some blogs on Statistics:
 https://learningstatisticswithr.com/
 https://advstats.psychstat.org/book/power/index.php (Online book for Free with example codes in R, I found it handy.)
+https://worthylab.org/statistics/
+https://r4ds.had.co.nz/
+https://xcelab.net/rm/statistical-rethinking/
+
+## Multivariate Regression : https://library.virginia.edu/data/articles/getting-started-with-multivariate-multiple-regression
+
+
+
 
 ## GWAS studies practical guide
 1. https://www.youtube.com/watch?v=nrbgly0Bcv8
