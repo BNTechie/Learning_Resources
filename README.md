@@ -235,7 +235,29 @@ https://r4ds.had.co.nz/
 https://xcelab.net/rm/statistical-rethinking/
 
 ## Multivariate Regression : https://library.virginia.edu/data/articles/getting-started-with-multivariate-multiple-regression
+## What is odd ratio in exact test? In statistics, especially in the context of hypothesis testing, the odds ratio (OR) is a measure of association between an exposure and an outcome. It quantifies the strength and direction of the relationship between two variables. The odds ratio is often used in logistic regression analysis and in studies where the outcome of interest is binary (e.g., success or failure, presence or absence).
 
+In the context of an exact test, such as Fisher's exact test, the odds ratio is used to compare the odds of an event (e.g., having a certain characteristic or outcome) between two groups. Fisher's exact test is used to determine if there is a significant association between two categorical variables by examining the relationship between their frequencies.
+
+Here's how the odds ratio is typically calculated in the context of Fisher's exact test:
+
+- **For a 2x2 contingency table**: If you have a 2x2 table where rows represent two groups (e.g., treatment and control) and columns represent the presence or absence of an outcome (e.g., success or failure), the odds ratio is calculated as the ratio of the odds of success in one group to the odds of success in the other group.
+
+- **Formula**: Let's say the 2x2 table looks like this:
+
+  ```
+          Outcome Present   Outcome Absent
+  Group A      a                 b
+  Group B      c                 d
+  ```
+
+  Then the odds ratio (OR) is given by:
+  
+  \[ \text{OR} = \frac{ad}{bc} \]
+
+- **Interpretation**: An odds ratio greater than 1 indicates that the event (e.g., success) is more likely to occur in the first group compared to the second group. An odds ratio less than 1 indicates the opposite. An odds ratio of 1 suggests that there is no association between the exposure and the outcome.
+
+In Fisher's exact test, the p-value associated with the odds ratio is used to determine if the observed association between the two variables is statistically significant. If the p-value is below a predetermined significance level (often 0.05), it indicates that the observed association is unlikely to have occurred by chance alone, and there is evidence of a significant relationship between the variables.
 
 
 
