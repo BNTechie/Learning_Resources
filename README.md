@@ -264,3 +264,7 @@ In Fisher's exact test, the p-value associated with the odds ratio is used to de
 
 ## GWAS studies practical guide
 1. https://www.youtube.com/watch?v=nrbgly0Bcv8
+2. 
+## Algorithm and Datasctructure
+
+https://www.youtube.com/watch?v=8hly31xKli0
