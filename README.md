@@ -4,6 +4,14 @@
 2. Connectivity Map analysis tool: https://clue.io/query
 3. 
 
+## GWAS studies practical guide
+1. https://www.youtube.com/watch?v=nrbgly0Bcv8
+2. https://www.r-bloggers.com/2017/10/genome-wide-association-studies-in-r/
+
+## Algorithm and Datasctructure
+
+https://www.youtube.com/watch?v=8hly31xKli0
+
 # Machine_Learning_Resource
 
 I list down some of the resource links I often come across and take help from for my  research.
@@ -268,9 +276,4 @@ In Fisher's exact test, the p-value associated with the odds ratio is used to de
 
 
 
-## GWAS studies practical guide
-1. https://www.youtube.com/watch?v=nrbgly0Bcv8
-2. 
-## Algorithm and Datasctructure
 
-https://www.youtube.com/watch?v=8hly31xKli0
