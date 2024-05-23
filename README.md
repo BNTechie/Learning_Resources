@@ -1,6 +1,8 @@
 # Tools for bioinformatics analysis
 
 1. Gene ID convertion tool: https://www.syngoportal.org/convert
+2. Connectivity Map analysis tool: https://clue.io/query
+3. 
 
 # Machine_Learning_Resource
 
