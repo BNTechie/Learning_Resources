@@ -59,6 +59,8 @@ A Genome-Wide Association Study (GWAS) is a research approach used to identify g
 
 GWAS is a powerful tool for uncovering the genetic underpinnings of diseases and traits. By scanning the genome for associations between genetic variants and specific conditions, GWAS has significantly advanced our understanding of human genetics and contributed to the development of personalized medicine. However, it also faces challenges that require ongoing research and methodological improvements to fully realize its potential.
 
+About PLINK: https://www.cog-genomics.org/plink/2.0/input
+
 ## Algorithm and Datasctructure
 
 https://www.youtube.com/watch?v=8hly31xKli0
