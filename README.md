@@ -1,3 +1,34 @@
+# Biological concepts: 
+
+## What is 'housekeeping gene'?
+
+Housekeeping genes are genes that are essential for the maintenance of basic cellular functions and are typically expressed in all cells of an organism under normal and healthy conditions. They perform fundamental roles in the upkeep of cellular physiology and survival. Here are some key points about housekeeping genes:
+
+### Key Characteristics of Housekeeping Genes:
+
+1. **Essential Functions**: Housekeeping genes are involved in crucial cellular processes such as energy production, metabolism, cell structure maintenance, DNA repair, and protein synthesis.
+
+2. **Constitutive Expression**: These genes are usually expressed at relatively constant levels across different cell types and conditions because their protein products are required continuously for the cell to function properly.
+
+3. **Universal Presence**: Housekeeping genes are present in all cells of an organism, irrespective of the tissue type or developmental stage. They are fundamental to the basic operations of every cell.
+
+4. **Stable Expression Levels**: The expression levels of housekeeping genes are relatively stable, making them reliable internal controls in various experimental settings, such as quantitative PCR and gene expression studies.
+
+### Examples of Housekeeping Genes:
+
+- **GAPDH (Glyceraldehyde-3-phosphate dehydrogenase)**: Involved in glycolysis, the process of breaking down glucose to produce energy.
+- **ACTB (Beta-actin)**: Part of the cytoskeleton, playing a critical role in cell structure and integrity.
+- **RPLP0 (Ribosomal protein, large, P0)**: A component of the ribosome, essential for protein synthesis.
+- **HPRT1 (Hypoxanthine-guanine phosphoribosyltransferase)**: Involved in nucleotide synthesis and metabolism.
+- **B2M (Beta-2-microglobulin)**: Part of the major histocompatibility complex (MHC) class I molecule, important for immune response.
+
+### Importance in Research:
+
+- **Normalization Controls**: Due to their stable expression, housekeeping genes are often used as reference genes to normalize data in gene expression studies, ensuring that variations in experimental conditions do not affect the results.
+- **Cellular Health Indicators**: Consistent expression of housekeeping genes is an indicator of normal cellular function and health, whereas deviations can signal cellular stress or pathology.
+
+In summary, housekeeping genes are essential for the fundamental operations of cells, consistently expressed to support critical cellular functions, and serve as vital tools in molecular biology research for ensuring accurate and reliable experimental results.
+
 # Tools for bioinformatics analysis
 
 1. Gene ID conversion tool: https://www.syngoportal.org/convert
