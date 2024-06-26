@@ -123,6 +123,9 @@ Some uploaded files are collections of interview questions from different resour
 
 Resources on specific topics(collected over the years working with several collaborators and my research)
 
+
+## Sequence alignment with BWA : https://www.youtube.com/watch?v=1wcFavYt6uU
+
 Deep learning
 =============
 - Tensorflow: https://github.com/tensorflow/tensorflow
