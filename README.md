@@ -1,4 +1,3 @@
-# Deploying your machine learning model.
 # Popular Deployment Methods for Data Scientists
 
 Data scientists use a variety of methods to deploy machine learning models. Here are some of the most popular deployment methods, each with a brief explanation:
