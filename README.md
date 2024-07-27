@@ -1,3 +1,64 @@
+# Deploying your machine learning model.
+# Popular Deployment Methods for Data Scientists
+
+Data scientists use a variety of methods to deploy machine learning models. Here are some of the most popular deployment methods, each with a brief explanation:
+
+## 1. Flask and FastAPI
+
+### Flask:
+- Flask is a lightweight web framework for Python. It’s simple to set up and use, making it popular for deploying small to medium-sized ML models.
+- **Pros**: Easy to set up, flexible.
+- **Cons**: May require additional work for scaling and handling high traffic.
+
+### FastAPI:
+- FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.6+ based on standard Python type hints.
+- **Pros**: High performance, automatic generation of OpenAPI documentation, asynchronous capabilities.
+- **Cons**: Slightly more complex than Flask.
+
+## 2. Docker
+- Docker is a tool designed to make it easier to create, deploy, and run applications by using containers.
+- **Pros**: Consistent environments, easy to scale, portable.
+- **Cons**: Requires knowledge of Docker and containerization concepts.
+
+## 3. Kubernetes
+- Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers.
+- **Pros**: Manages containers at scale, self-healing, automated rollouts and rollbacks.
+- **Cons**: Complex to set up and manage.
+
+## 4. Cloud Services
+
+### AWS SageMaker:
+- Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning models quickly.
+- **Pros**: Fully managed, integrates well with other AWS services.
+- **Cons**: Can be expensive, has a learning curve.
+
+### Google AI Platform:
+- Google AI Platform is a managed service that enables you to easily build, deploy, and scale machine learning models.
+- **Pros**: Fully managed, integrates well with Google Cloud services.
+- **Cons**: Can be expensive, has a learning curve.
+
+### Azure Machine Learning:
+- Azure Machine Learning is a cloud-based environment that you can use to train, deploy, automate, manage, and track ML models.
+- **Pros**: Fully managed, integrates well with Azure services.
+- **Cons**: Can be expensive, has a learning curve.
+
+## 5. Serverless Architectures
+
+### AWS Lambda:
+- AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume.
+- **Pros**: No server management, automatic scaling.
+- **Cons**: Limited execution time (15 minutes max), stateless.
+
+### Google Cloud Functions:
+- Google Cloud Functions is a serverless execution environment for building and connecting cloud services.
+- **Pros**: No server management, automatic scaling.
+- **Cons**: Limited execution time, stateless.
+
+## 6. Model-as-a-Service Platforms
+- Platforms like Algorithmia, MLflow, and TensorFlow Serving provide infrastructure and tools specifically for deploying and managing machine learning models.
+- **Pros**: Designed for ML models, provide model management tools.
+- **Cons**: Can be expensive, may require integration with other tools.
+
 # What is Quasi-Newton method ?
 Quasi-Newton methods are optimization algorithms used to find the minimum (or maximum) of a function. These methods belong to the broader class of quasi-Newton optimization algorithms, which are designed for unconstrained optimization problems. The primary goal is to iteratively find the minimum of a scalar function without requiring the calculation of derivatives at each step.
 
