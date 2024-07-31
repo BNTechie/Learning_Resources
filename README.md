@@ -85,7 +85,7 @@ Feature Importance: It can calculate feature importance scores, which helps in u
 
 Wide Adoption: XGBoost has been widely adopted in machine learning competitions and industry applications due to its robustness and superior performance. It has been the algorithm of choice in many winning solutions of data science competitions like Kaggle.
 
-
+### Youtube Video: https://www.youtube.com/watch?v=OtD8wVaFm6E
 
 # What is Quasi-Newton method ?
 Quasi-Newton methods are optimization algorithms used to find the minimum (or maximum) of a function. These methods belong to the broader class of quasi-Newton optimization algorithms, which are designed for unconstrained optimization problems. The primary goal is to iteratively find the minimum of a scalar function without requiring the calculation of derivatives at each step.
