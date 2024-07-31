@@ -57,6 +57,11 @@ Data scientists use a variety of methods to deploy machine learning models. Here
 - Platforms like Algorithmia, MLflow, and TensorFlow Serving provide infrastructure and tools specifically for deploying and managing machine learning models.
 - **Pros**: Designed for ML models, provide model management tools.
 - **Cons**: Can be expensive, may require integration with other tools.
+# Machine Learning Algorithms:
+
+__***XGBoost**
+
+
 
 # What is Quasi-Newton method ?
 Quasi-Newton methods are optimization algorithms used to find the minimum (or maximum) of a function. These methods belong to the broader class of quasi-Newton optimization algorithms, which are designed for unconstrained optimization problems. The primary goal is to iteratively find the minimum of a scalar function without requiring the calculation of derivatives at each step.
