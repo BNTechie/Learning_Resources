@@ -467,5 +467,8 @@ Check for Convergence:
 
 Verify if the model has converged. Sometimes, a lack of convergence can contribute to singular fits. You can check convergence using the convergence information in the model summary.
 
-#GitHub profile: https://github.com/BNTechie/getting-started-with-genomics-tools-and-resources
+# GitHub profile: 
+
+
+[https://github.com/BNTechie/GWAStutorial](https://github.com/monogenea/GWAStutorial)
 
