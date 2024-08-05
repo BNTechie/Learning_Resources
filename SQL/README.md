@@ -94,6 +94,32 @@ WHERE Department = 'Sales';
 | 1   | John Doe   | Sales      | 60000  |
 
 
+#### ORDER BY Clause
+The ORDER BY clause is used to sort the result set in either ascending or descending order.
+
+#### Basic Syntax
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1 [ASC|DESC], column2 [ASC|DESC], ...;
+```
+#### Example Command
+To retrieve all employees and sort them by Salary in descending order:
+
+```sql
+SELECT * FROM Employees
+ORDER BY Salary DESC;
+```
+
+
+### Example Output
+| ID  | Name       | Department | Salary |
+|-----|------------|------------|--------|
+| 3   | Mike Brown | IT         | 70000  |
+| 2   | Jane Smith | HR         | 65000  |
+| 4   | Lisa White | Marketing  | 62000  |
+| 1   | John Doe   | Sales      | 60000  |
 
 
 
