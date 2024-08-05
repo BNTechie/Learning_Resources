@@ -85,9 +85,13 @@ To retrieve employees from the Sales department:
 ```sql
 SELECT * FROM Employees
 WHERE Department = 'Sales';
-
 ```
 
+### Example Output
+
+| ID  | Name       | Department | Salary |
+|-----|------------|------------|--------|
+| 1   | John Doe   | Sales      | 60000  |
 
 
 
