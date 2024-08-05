@@ -580,34 +580,25 @@ FROM departments
 JOIN department_sales ON departments.id = department_sales.department_id;
 ```
 
-### **5. Practical Application**
+### **5. Free resources for learning SQL online:
 
-#### **5.1. Practice with Real Datasets**
-Utilize platforms like Kaggle or SQLZoo to practice your SQL skills with real-world datasets.
+## Top 5 Free Resources for Learning SQL for Data Science
 
-#### **5.2. Projects**
-Work on data science projects that require data extraction, transformation, and loading (ETL) using SQL.
+Learning SQL is a crucial skill for data science. Here are the top 5 free resources to help you get started:
 
-### **6. Optimization and Performance Tuning**
+### 1. Codecademy
+[Codecademy](https://www.codecademy.com/learn/learn-sql) offers a comprehensive and interactive SQL course that covers basic to advanced SQL concepts, including data manipulation and querying techniques.
 
-#### **6.1. Query Optimization**
-Learn to write efficient SQL queries that minimize execution time and resource consumption.
+### 2. W3Schools
+[W3Schools](https://www.w3schools.com/sql/) provides a detailed SQL tutorial with numerous examples and interactive exercises. It’s a great place to understand the basics and practice writing SQL queries.
 
-#### **6.2. Database Design**
-Understand normalization and denormalization, and how to design databases for optimal performance.
+### 3. Khan Academy
+[Khan Academy](https://www.khanacademy.org/computing/computer-programming/sql) offers an SQL course that covers SQL basics and more advanced topics with interactive challenges and exercises.
 
-### **7. Continuous Learning and Resources**
+### 4. Mode Analytics SQL Tutorial
+[Mode Analytics](https://mode.com/sql-tutorial/) provides a practical SQL tutorial that focuses on real-world data analysis. It's a great resource for those looking to apply SQL skills in data science.
 
-#### **7.1. Online Courses and Tutorials**
-Enroll in courses on platforms like Coursera, Udemy, and DataCamp to deepen your SQL knowledge.
-
-#### **7.2. Documentation and Books**
-Refer to official SQL documentation and read books like "SQL for Data Scientists" by Renee M. P. Teate.
-
-### **Conclusion**
-
-Mastering SQL is crucial for a successful career in data science. Follow this roadmap, practice consistently, and you'll be well-equipped to handle data-related challenges in any data science job.
-
----
+### 5. SQLZoo
+[SQLZoo](https://sqlzoo.net/) is an interactive SQL tutorial with a wide range of exercises and quizzes. It covers different SQL databases and provides hands-on practice.
 
 By following this structured roadmap, you can systematically build and enhance your SQL skills, making you a valuable asset in the field of data science. Happy learning!
