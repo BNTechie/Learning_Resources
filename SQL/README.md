@@ -338,12 +338,50 @@ FROM table_name
 WHERE condition;
 ```
 
-Example Command
+##### Example Command
 To calculate the average salary of employees:
 ```sql
 SELECT AVG(Salary) AS AverageSalary
 FROM Employees;
 ```
+
+#### MAX
+The MAX function returns the maximum value in a set of values.
+
+##### Basic Syntax
+```sql
+SELECT MAX(column_name)
+FROM table_name
+WHERE condition;
+
+```
+
+##### Example Command
+To find the highest salary among employees:
+```sql
+SELECT MAX(Salary) AS HighestSalary
+FROM Employees;
+```
+
+#### MIN
+The MIN function returns the minimum value in a set of values.
+
+##### Basic Syntax
+```sql
+SELECT MIN(column_name)
+FROM table_name
+WHERE condition;
+```
+
+##### Example Command
+To find the lowest salary among employees:
+```sql
+SELECT MIN(Salary) AS LowestSalary
+FROM Employees;
+```
+
+
+
 
 
 
