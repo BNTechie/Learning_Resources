@@ -66,7 +66,7 @@ SELECT * FROM Employees;
 
 
 #### WHERE Clause
-The WHERE clause is used to filter records that meet certain conditions.
+The `WHERE` clause is used to filter records that meet certain conditions.
 
 ##### Basic Syntax
 ```sql
@@ -89,7 +89,7 @@ WHERE Department = 'Sales';
 
 
 #### ORDER BY Clause
-The ORDER BY clause is used to sort the result set in either ascending or descending order.
+The `ORDER BY` clause is used to sort the result set in either ascending or descending order.
 
 ##### Basic Syntax
 
@@ -116,7 +116,7 @@ ORDER BY Salary DESC;
 
 
 #### DISTINCT Keyword
-The DISTINCT keyword is used to return only distinct (different) values.
+The `DISTINCT` keyword is used to return only distinct (different) values.
 
 ##### Basic Syntax
 
@@ -142,7 +142,7 @@ SELECT DISTINCT Department FROM Employees;
 
 
 #### LIMIT Clause
-The LIMIT clause is used to specify the number of records to return.
+The `LIMIT` clause is used to specify the number of records to return.
 
 ##### Basic Syntax
 ```sql
@@ -166,7 +166,7 @@ LIMIT 2;
 
 
 #### LIKE Operator
-The LIKE operator is used to search for a specified pattern in a column.
+The `LIKE` operator is used to search for a specified pattern in a column.
 
 ##### Basic Syntax
 ```sql
@@ -190,7 +190,7 @@ WHERE Name LIKE 'J%';
 
 
 #### IN Operator
-The IN operator allows you to specify multiple values in a WHERE clause.
+The `IN` operator allows you to specify multiple values in a WHERE clause.
 
 ##### Basic Syntax
 ```sql
@@ -222,7 +222,7 @@ WHERE Department IN ('IT', 'HR');
 
 
 #### BETWEEN Operator
-The BETWEEN operator selects values within a given range.
+The `BETWEEN` operator selects values within a given range.
 
 ##### Basic Syntax
 
