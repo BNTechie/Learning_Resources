@@ -382,14 +382,31 @@ FROM Employees;
 
 
 
+#### GROUP BY
+The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of employees in each department". It is often used with aggregate functions (COUNT, MAX, MIN, SUM, AVG) to perform operations on each group of data.
 
+##### Basic Syntax
+```sql
+SELECT column1, aggregate_function(column2)
+FROM table_name
+WHERE condition
+GROUP BY column1;
+```
 
+##### Example Command
+To find the number of employees in each department:
+
+```sql
+SELECT DepartmentID, COUNT(EmployeeID) AS NumberOfEmployees
+FROM Employees
+GROUP BY DepartmentID;
+```
 
 
 
 ### **3. Advanced SQL Concepts**
 
-## Core SQL JOIN Commands
+##### JOIN Commands
 - **INNER JOIN**: Returns records with matching values in both tables.
 - **LEFT JOIN**: Returns all records from the left table, and matched records from the right table.
 - **RIGHT JOIN**: Returns all records from the right table, and matched records from the left table.
