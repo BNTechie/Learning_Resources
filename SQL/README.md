@@ -248,6 +248,55 @@ Example:
 INSERT INTO employees (first_name, last_name, department) VALUES ('John', 'Doe', 'HR');
 ```
 
+### INSERT INTO
+
+The `INSERT INTO` command is used to add new records to a table.
+
+#### Basic Syntax
+```sql
+INSERT INTO table_name (column1, column2, ...)
+VALUES (value1, value2, ...);
+```
+##### Example Command
+To add a new employee to the Employees table:
+```sql
+INSERT INTO Employees (EmployeeID, Name, DepartmentID, Salary)
+VALUES (5, 'Anna Green', 2, 68000);
+```
+#### UPDATE
+The UPDATE command is used to modify existing records in a table.
+
+##### Basic Syntax
+```sql
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+##### Example Command
+To update the salary of an employee in the Employees table:
+```sql
+UPDATE Employees
+SET Salary = 72000
+WHERE EmployeeID = 1;
+```
+
+
+#### DELETE
+The DELETE command is used to remove records from a table.
+
+##### Basic Syntax
+```sql
+DELETE FROM table_name
+WHERE condition;
+```
+
+##### Example Command
+To delete an employee from the Employees table:
+```sql
+DELETE FROM Employees
+WHERE EmployeeID = 3;
+```
+
 #### **2.3. Aggregation and Grouping**
 - **COUNT, SUM, AVG, MAX, MIN**: Perform calculations on data.
 - **GROUP BY**: Group rows sharing a property so that an aggregate function can be applied.
