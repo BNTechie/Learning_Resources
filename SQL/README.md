@@ -31,10 +31,6 @@ SQL is a standard language for accessing and manipulating databases. It's essent
 - **WHERE**: Filter records based on specific conditions.
 - **ORDER BY**: Sort the results.
 
-Example:
-```sql
-SELECT * FROM employees WHERE department = 'Sales' ORDER BY last_name;
-```
 
 #### SELECT Statement
 
@@ -49,13 +45,13 @@ The `SELECT` statement is used to retrieve data from one or more tables in a dat
 | 3   | Mike Brown | IT         | 70000  |
 | 4   | Lisa White | Marketing  | 62000  |
 
-#### Basic Syntax
+##### Basic Syntax
 ```sql
 SELECT column1, column2, ...
 FROM table_name;
 ```
 
-### Example Command
+##### Example Command
 To retrieve all columns from the Employees table:
 
 ```sql
@@ -69,25 +65,23 @@ SELECT * FROM Employees;
 | 4   | Lisa White | Marketing  | 62000  |
 
 
-
-
 #### WHERE Clause
 The WHERE clause is used to filter records that meet certain conditions.
 
-#### Basic Syntax
+##### Basic Syntax
 ```sql
 SELECT column1, column2, ...
 FROM table_name
 WHERE condition;
 ```
-### Example Command
+##### Example Command
 To retrieve employees from the Sales department:
 ```sql
 SELECT * FROM Employees
 WHERE Department = 'Sales';
 ```
 
-### Example Output
+##### Example Output
 
 | ID  | Name       | Department | Salary |
 |-----|------------|------------|--------|
@@ -97,23 +91,21 @@ WHERE Department = 'Sales';
 #### ORDER BY Clause
 The ORDER BY clause is used to sort the result set in either ascending or descending order.
 
-#### Basic Syntax
+##### Basic Syntax
 
 ```sql
 SELECT column1, column2, ...
 FROM table_name
 ORDER BY column1 [ASC|DESC], column2 [ASC|DESC], ...;
 ```
-#### Example Command
+##### Example Command
 To retrieve all employees and sort them by Salary in descending order:
 
 ```sql
 SELECT * FROM Employees
 ORDER BY Salary DESC;
 ```
-
-
-### Example Output
+##### Example Output
 | ID  | Name       | Department | Salary |
 |-----|------------|------------|--------|
 | 3   | Mike Brown | IT         | 70000  |
