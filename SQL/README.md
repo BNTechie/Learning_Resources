@@ -263,7 +263,7 @@ SELECT department, COUNT(*) as num_employees FROM employees GROUP BY department;
 
 ### **3. Advanced SQL Concepts**
 
-#### **3.1. Joins**
+## Core SQL JOIN Commands
 - **INNER JOIN**: Returns records with matching values in both tables.
 - **LEFT JOIN**: Returns all records from the left table, and matched records from the right table.
 - **RIGHT JOIN**: Returns all records from the right table, and matched records from the left table.
@@ -275,6 +275,26 @@ SELECT employees.first_name, departments.department_name
 FROM employees
 INNER JOIN departments ON employees.department_id = departments.id;
 ```
+#### INNER JOIN
+
+The `INNER JOIN` command returns records with matching values in both tables.
+
+##### Basic Syntax
+```sql
+SELECT columns
+FROM table1
+INNER JOIN table2
+ON table1.common_column = table2.common_column;
+```
+##### Example Command
+To retrieve employees along with their corresponding department names:
+
+
+
+
+
+
+
 
 #### **3.2. Subqueries**
 A query nested inside another query.
