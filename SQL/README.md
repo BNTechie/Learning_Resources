@@ -53,6 +53,7 @@ The `SELECT` statement is used to retrieve data from one or more tables in a dat
 ```sql
 SELECT column1, column2, ...
 FROM table_name;
+```
 
 Example Command
 To retrieve all columns from the Employees table:
