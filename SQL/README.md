@@ -12,10 +12,9 @@ Moreover, SQL skills are critical for cleaning and preprocessing data, which are
 Having strong SQL skills is also vital for passing job interviews in data science. Many technical interviews include SQL-based questions to assess a candidate's ability to work with databases. Employers look for candidates who can write efficient queries, optimize database performance, and solve real-world data problems.
 
 
-## Understanding the Basics of SQL
 
-** 1. What is SQL?**
+## 1. Understand the Basics
 
-SQL stands for Structured Query Language, is the standard language used for accessing and manipulating databases. It is fundamental for retrieving and managing data stored in relational databases. These databases are prevalent in data science because they provide a structured way to store and query large volumes of data. With SQL, we can perform a wide range of operations such as querying data, updating records, inserting new data, and deleting unwanted data. Its efficiency and ease of use make it an essential tool for any data scientist, enabling us to work effectively with the data needed for analysis, reporting, and decision-making.
+### 1.1. What is SQL?
 
-
+SQL, or Structured Query Language, is a standard language specifically designed for accessing and manipulating databases. It plays a crucial role in retrieving and managing data stored in relational databases, which are widely used in various fields, including data science. SQL enables data scientists and analysts to efficiently query large datasets, perform data manipulations, and manage database structures, making it an indispensable tool for data-driven decision-making and analysis.
