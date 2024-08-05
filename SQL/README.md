@@ -141,6 +141,56 @@ SELECT DISTINCT Department FROM Employees;
 | Marketing  |
 
 
+#### LIMIT Clause
+The LIMIT clause is used to specify the number of records to return.
+
+##### Basic Syntax
+```sql
+SELECT column1, column2, ...
+FROM table_name
+LIMIT number;
+```
+##### Example Command
+To retrieve the first 2 records from the Employees table:
+```sql
+SELECT * FROM Employees
+LIMIT 2;
+```
+#### Example Output
+
+| ID  | Name       | Department | Salary |
+|-----|------------|------------|--------|
+| 1   | John Doe   | Sales      | 60000  |
+| 2   | Jane Smith | HR         | 65000  |
+
+
+
+#### LIKE Operator
+The LIKE operator is used to search for a specified pattern in a column.
+
+##### Basic Syntax
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE column1 LIKE pattern;
+```
+##### Example Command
+To retrieve employees whose names start with 'J':
+```sql
+SELECT * FROM Employees
+WHERE Name LIKE 'J%';
+```
+
+#### Example Output
+| ID  | Name       | Department | Salary |
+|-----|------------|------------|--------|
+| 1   | John Doe   | Sales      | 60000  |
+| 2   | Jane Smith | HR         | 65000  |
+
+
+
+
+
 
 
 
