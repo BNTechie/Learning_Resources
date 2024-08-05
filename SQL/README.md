@@ -113,7 +113,7 @@ ORDER BY Salary DESC;
 | 4   | Lisa White | Marketing  | 62000  |
 | 1   | John Doe   | Sales      | 60000  |
 
-
+Following are some additional important SQL commands one should learn.
 
 #### DISTINCT Keyword
 The `DISTINCT` keyword is used to return only distinct (different) values.
