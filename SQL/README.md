@@ -231,7 +231,6 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE column1 BETWEEN value1 AND value2;
 ```
-
 ##### Example Command
 To retrieve employees with salaries between 60000 and 65000:
 
@@ -239,9 +238,6 @@ To retrieve employees with salaries between 60000 and 65000:
 SELECT * FROM Employees
 WHERE Salary BETWEEN 60000 AND 65000;
 ```
-
-
-
 #### **2.2. Data Manipulation**
 - **INSERT INTO**: Add new records to a table.
 - **UPDATE**: Modify existing records.
@@ -355,9 +351,6 @@ FROM Employees
 FULL JOIN Departments
 ON Employees.DepartmentID = Departments.DepartmentID;
 ```
-
-
-
 ## Example Outputs
 
 ### INNER JOIN Output
