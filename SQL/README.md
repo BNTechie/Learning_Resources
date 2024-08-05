@@ -289,8 +289,22 @@ ON table1.common_column = table2.common_column;
 ##### Example Command
 To retrieve employees along with their corresponding department names:
 
+```sql
+SELECT Employees.Name, Departments.Department
+FROM Employees
+INNER JOIN Departments
+ON Employees.DepartmentID = Departments.DepartmentID;
+```
+##### LEFT JOIN
+The LEFT JOIN command returns all records from the left table, and the matched records from the right table. If no match is found, NULL values are returned for columns from the right table.
 
-
+##### Basic Syntax
+```sql
+SELECT columns
+FROM table1
+LEFT JOIN table2
+ON table1.common_column = table2.common_column;
+```
 
 
 
