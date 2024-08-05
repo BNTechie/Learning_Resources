@@ -580,7 +580,7 @@ FROM departments
 JOIN department_sales ON departments.id = department_sales.department_id;
 ```
 
-### **5. Free resources for learning SQL online:
+I have learnt SQL from various online resources which are free. I am providing some of the top resources I consider to be comprehensive and easy to follow. Check these out and chose your own favourite to start with.
 
 ## Top 5 Free Resources for Learning SQL for Data Science
 
