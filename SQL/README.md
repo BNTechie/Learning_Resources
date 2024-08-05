@@ -115,6 +115,39 @@ ORDER BY Salary DESC;
 
 
 
+#### DISTINCT Keyword
+The DISTINCT keyword is used to return only distinct (different) values.
+
+##### Basic Syntax
+
+```sql
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+```
+##### Example Command
+To retrieve distinct departments from the Employees table:
+
+```sql
+SELECT DISTINCT Department FROM Employees;
+```
+
+##### Example Output
+
+| Department |
+|------------|
+| Sales      |
+| HR         |
+| IT         |
+| Marketing  |
+
+
+
+
+
+
+
+
+
 
 
 #### **2.2. Data Manipulation**
