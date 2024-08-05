@@ -36,6 +36,40 @@ Example:
 SELECT * FROM employees WHERE department = 'Sales' ORDER BY last_name;
 ```
 
+#### SELECT Statement
+
+The `SELECT` statement is used to retrieve data from one or more tables in a database. It is one of the most commonly used SQL commands.
+
+#### Example Table: Employees
+
+| ID  | Name       | Department | Salary |
+|-----|------------|------------|--------|
+| 1   | John Doe   | Sales      | 60000  |
+| 2   | Jane Smith | HR         | 65000  |
+| 3   | Mike Brown | IT         | 70000  |
+| 4   | Lisa White | Marketing  | 62000  |
+
+#### Basic Syntax
+```sql
+SELECT column1, column2, ...
+FROM table_name;
+
+Example Command
+To retrieve all columns from the Employees table:
+
+SELECT * FROM Employees;
+
+Example Output
+ID	Name	Department	Salary
+1	John Doe	Sales	60000
+2	Jane Smith	HR	65000
+3	Mike Brown	IT	70000
+4	Lisa White	Marketing	62000
+
+
+
+
+
 #### **2.2. Data Manipulation**
 - **INSERT INTO**: Add new records to a table.
 - **UPDATE**: Modify existing records.
