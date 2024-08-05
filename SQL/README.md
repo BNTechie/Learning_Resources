@@ -189,14 +189,56 @@ WHERE Name LIKE 'J%';
 
 
 
+#### IN Operator
+The IN operator allows you to specify multiple values in a WHERE clause.
+
+##### Basic Syntax
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE column1 IN (value1, value2, ...);
+```
+
+##### Example Command
+To retrieve employees from the IT and HR departments:
+```sql
+SELECT * FROM Employees
+WHERE Department IN ('IT', 'HR');
+```
+
+##### Example Command
+To retrieve employees from the IT and HR departments:
+```sql
+SELECT * FROM Employees
+WHERE Department IN ('IT', 'HR');
+```
+
+##### Example Output
+
+| ID  | Name       | Department | Salary |
+|-----|------------|------------|--------|
+| 2   | Jane Smith | HR         | 65000  |
+| 3   | Mike Brown | IT         | 70000  |
 
 
+#### BETWEEN Operator
+The BETWEEN operator selects values within a given range.
 
+##### Basic Syntax
 
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE column1 BETWEEN value1 AND value2;
+```
 
+##### Example Command
+To retrieve employees with salaries between 60000 and 65000:
 
-
-
+```sql
+SELECT * FROM Employees
+WHERE Salary BETWEEN 60000 AND 65000;
+```
 
 
 
