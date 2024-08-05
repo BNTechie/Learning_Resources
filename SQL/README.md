@@ -601,4 +601,10 @@ Learning SQL is a crucial skill for data science. Here are the top 5 free resour
 ### 5. SQLZoo
 [SQLZoo](https://sqlzoo.net/) is an interactive SQL tutorial with a wide range of exercises and quizzes. It covers different SQL databases and provides hands-on practice.
 
+## Practice, practice, and practice
+
+I truly believe that learning any programming language can't be achieved just by reading countless articles, books, or blogs. The real way to learn and remember is to practice, practice, and practice writing the commands. Whenever you encounter an error, take the time to understand where you went wrong. This approach provides countless opportunities for active learning. This is a philosophy I hold dear. Mistakes will teach you more than success ever could.
+
+
+
 By following this structured roadmap, you can systematically build and enhance your SQL skills, making you a valuable asset in the field of data science. Happy learning!
