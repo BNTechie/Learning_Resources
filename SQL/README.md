@@ -295,7 +295,7 @@ FROM Employees
 INNER JOIN Departments
 ON Employees.DepartmentID = Departments.DepartmentID;
 ```
-##### LEFT JOIN
+#### LEFT JOIN
 The LEFT JOIN command returns all records from the left table, and the matched records from the right table. If no match is found, NULL values are returned for columns from the right table.
 
 ##### Basic Syntax
@@ -306,6 +306,91 @@ LEFT JOIN table2
 ON table1.common_column = table2.common_column;
 ```
 
+##### Example Command
+To retrieve all employees and their corresponding department names, including those without a department:
+
+```sql
+SELECT Employees.Name, Departments.Department
+FROM Employees
+LEFT JOIN Departments
+ON Employees.DepartmentID = Departments.DepartmentID;
+```
+
+#### RIGHT JOIN
+The RIGHT JOIN command returns all records from the right table, and the matched records from the left table. If no match is found, NULL values are returned for columns from the left table.
+
+##### Basic Syntax
+```sql
+SELECT columns
+FROM table1
+RIGHT JOIN table2
+ON table1.common_column = table2.common_column;
+```
+
+##### Example Command
+To retrieve all departments and their corresponding employees, including departments without employees:
+```sql
+SELECT Employees.Name, Departments.Department
+FROM Employees
+RIGHT JOIN Departments
+ON Employees.DepartmentID = Departments.DepartmentID;
+```
+
+#### FULL JOIN
+The FULL JOIN command returns records when there is a match in either table. It returns all records from both tables, with NULLs in place where the join condition is not met.
+
+##### Basic Syntax
+```sql
+SELECT columns
+FROM table1
+FULL JOIN table2
+ON table1.common_column = table2.common_column;
+```
+
+##### Example Command
+To retrieve all employees and departments, including those without matches:
+```sql
+SELECT Employees.Name, Departments.Department
+FROM Employees
+FULL JOIN Departments
+ON Employees.DepartmentID = Departments.DepartmentID;
+```
+
+
+
+## Example Outputs
+
+### INNER JOIN Output
+| Name       | Department |
+|------------|------------|
+| John Doe   | Sales      |
+| Jane Smith | HR         |
+| Lisa White | IT         |
+
+### LEFT JOIN Output
+| Name       | Department |
+|------------|------------|
+| John Doe   | Sales      |
+| Jane Smith | HR         |
+| Mike Brown | NULL       |
+| Lisa White | IT         |
+
+### RIGHT JOIN Output
+| Name       | Department |
+|------------|------------|
+| John Doe   | Sales      |
+| Jane Smith | HR         |
+| Lisa White | IT         |
+| NULL       | Marketing  |
+
+### FULL JOIN Output
+| Name       | Department |
+|------------|------------|
+| John Doe   | Sales      |
+| Jane Smith | HR         |
+| Mike Brown | NULL       |
+| Lisa White | IT         |
+| NULL       | Marketing  |
 
 
 
