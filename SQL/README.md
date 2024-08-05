@@ -301,10 +301,53 @@ WHERE EmployeeID = 3;
 - **COUNT, SUM, AVG, MAX, MIN**: Perform calculations on data.
 - **GROUP BY**: Group rows sharing a property so that an aggregate function can be applied.
 
-Example:
+#### COUNT
+
+The `COUNT` function returns the number of rows that match a specified condition.
+
+#### Basic Syntax
 ```sql
-SELECT department, COUNT(*) as num_employees FROM employees GROUP BY department;
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
 ```
+##### Example Command
+To count the number of employees in the Employees table:
+```sql
+SELECT COUNT(EmployeeID) AS NumberOfEmployees
+FROM Employees;
+```
+
+#### SUM
+The SUM function returns the total sum of a numeric column.
+
+##### Basic Syntax
+```sql
+SELECT SUM(Salary) AS TotalSalary
+FROM Employees;
+```
+
+#### AVG
+
+The AVG function returns the average value of a numeric column.
+
+##### Basic Syntax
+```sql
+SELECT AVG(column_name)
+FROM table_name
+WHERE condition;
+```
+
+Example Command
+To calculate the average salary of employees:
+```sql
+SELECT AVG(Salary) AS AverageSalary
+FROM Employees;
+```
+
+
+
+
 
 ### **3. Advanced SQL Concepts**
 
