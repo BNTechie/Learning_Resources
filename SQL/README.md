@@ -55,7 +55,7 @@ SELECT column1, column2, ...
 FROM table_name;
 ```
 
-Example Command
+### Example Command
 To retrieve all columns from the Employees table:
 
 ```sql
@@ -67,6 +67,29 @@ SELECT * FROM Employees;
 | 2   | Jane Smith | HR         | 65000  |
 | 3   | Mike Brown | IT         | 70000  |
 | 4   | Lisa White | Marketing  | 62000  |
+
+
+
+
+#### WHERE Clause
+The WHERE clause is used to filter records that meet certain conditions.
+
+#### Basic Syntax
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+```
+### Example Command
+To retrieve employees from the Sales department:
+```sql
+SELECT * FROM Employees
+WHERE Department = 'Sales';
+
+```
+
+
+
 
 
 
