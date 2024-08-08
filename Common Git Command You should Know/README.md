@@ -1,4 +1,4 @@
-
+The table shows some of the most important git commands you should know if you want to use git in your everyday work.
 
 # Common Git Commands
 
