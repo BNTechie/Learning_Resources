@@ -397,11 +397,11 @@ https://www.kaggle.com/rohanrao/automl-tutorial-tps-september-2021
 5. 
 
 ## Some blogs on Statistics:
-https://learningstatisticswithr.com/
-https://advstats.psychstat.org/book/power/index.php (Online book for Free with example codes in R, I found it handy.)
-https://worthylab.org/statistics/
-https://r4ds.had.co.nz/
-https://xcelab.net/rm/statistical-rethinking/
+- https://learningstatisticswithr.com/
+- https://advstats.psychstat.org/book/power/index.php (Online book for Free with example codes in R, I found it handy.)
+- https://worthylab.org/statistics/
+- https://r4ds.had.co.nz/
+- https://xcelab.net/rm/statistical-rethinking/
 
 ## Multivariate Regression : https://library.virginia.edu/data/articles/getting-started-with-multivariate-multiple-regression
 ## What is odd ratio in exact test? 
