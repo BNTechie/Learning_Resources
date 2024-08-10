@@ -403,7 +403,8 @@ https://www.kaggle.com/rohanrao/automl-tutorial-tps-september-2021
 - https://r4ds.had.co.nz/
 - https://xcelab.net/rm/statistical-rethinking/
 
-## Multivariate Regression : https://library.virginia.edu/data/articles/getting-started-with-multivariate-multiple-regression
+- **Multivariate Regression :**  https://library.virginia.edu/data/articles/getting-started-with-multivariate-multiple-regression
+- 
 ## What is odd ratio in exact test? 
 In statistics, especially in the context of hypothesis testing, the odds ratio (OR) is a measure of association between an exposure and an outcome. It quantifies the strength and direction of the relationship between two variables. The odds ratio is often used in logistic regression analysis and in studies where the outcome of interest is binary (e.g., success or failure, presence or absence).
 
