@@ -1,28 +1,29 @@
 # Important mathematical functions and distributions you should be aware of:
 
 1. Gradient descent
-2. Normal Distribution
-3. Z-score
-4. Sigmoid
-5. Correlation
-6. Cosine Similarity
-7. Naive Bayes
-8. MLE
-9. OLS
-10. F1 score
-11. ReLU
-12. Softmax
-13. R2 score
-14. MSE
-15. MSE+L2 Reg
-16. Eigen vectors
-17. Entropy
-18. KMeans
-19. KL Divergence
-20. Log-loss
-21. SVM
-22. Linear Regression
-23. SVD
-24. Lagrange multiplier
+   
+3. Normal Distribution
+4. Z-score
+5. Sigmoid
+6. Correlation
+7. Cosine Similarity
+8. Naive Bayes
+9. MLE
+10. OLS
+11. F1 score
+12. ReLU
+13. Softmax
+14. R2 score
+15. MSE
+16. MSE+L2 Reg
+17. Eigen vectors
+18. Entropy
+19. KMeans
+20. KL Divergence
+21. Log-loss
+22. SVM
+23. Linear Regression
+24. SVD
+25. Lagrange multiplier
 
    
