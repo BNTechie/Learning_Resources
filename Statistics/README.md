@@ -130,7 +130,10 @@ The sigmoid function is a mathematical function that is commonly used in data sc
 
 Mathematicall defined as,
 
-$\sigma(x)= \frac{1/1+\exp}$
+
+\[
+\sigma(x) = \frac{1}{1 + e^{-x}}
+\]
 
 
 
