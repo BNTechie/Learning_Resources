@@ -470,7 +470,7 @@ Where:
 - $\mathbf{x}_i$ are the input feature vectors.
 - $y_i$ are the corresponding class labels.
 
-### Kernel Trick
+***Kernel Trick***
 
 For non-linearly separable data, SVM can be extended using the kernel trick. The kernel function \( K(x_i, x_j) \) transforms the data into a higher-dimensional space, allowing SVM to find a linear separator in this new space:
 
