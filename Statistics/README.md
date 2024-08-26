@@ -1,6 +1,7 @@
 # Important mathematical functions and distributions you should be aware of:
 
-1. Gradient descent
+***1. Gradient descent***
+   This is crucial for optimizing machine learning model.This is a optimization algorithm used in machine learning to minimize the cost function.
    
 3. Normal Distribution
 4. Z-score
