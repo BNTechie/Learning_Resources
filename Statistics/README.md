@@ -269,21 +269,129 @@ Where:
 ```
 The coefficients estimated by OLS represent the change in the dependent variable for a one-unit change in the corresponding independent variable, holding all other variables constant.
 
----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 16. F1 score
-17. ReLU
-18. Softmax
-19. R2 score
-20. MSE
-21. MSE+L2 Reg
-22. Eigen vectors
-23. Entropy
-24. KMeans
-25. KL Divergence
-26. Log-loss
-27. SVM
-28. Linear Regression
-29. SVD
-30. Lagrange multiplier
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+17. ***ReLU***
+
+ReLU (Rectified Linear Unit) is one of the most widely used activation functions in deep learning and neural networks. It plays a significant role in enabling neural networks to learn complex patterns by introducing non-linearity into the model.
+
+
+## ReLU (Rectified Linear Unit)
+
+ReLU (Rectified Linear Unit) is a popular activation function used in neural networks, particularly in deep learning. It introduces non-linearity into the model, allowing neural networks to learn complex patterns.
+
+### Mathematical Representation
+
+The ReLU function is defined as:
+
+\[
+\text{ReLU}(x) = \max(0, x)
+\]
+
+Where:
+- \( x \) is the input to the function.
+- The output is \( x \) if \( x \) is greater than 0, and 0 otherwise.
+
+### Variants of ReLU
+
+#### 1. Leaky ReLU
+
+Leaky ReLU is a variant of ReLU that allows a small, non-zero gradient when the input is negative:
+
+\[
+\text{Leaky ReLU}(x) = \max(\alpha x, x)
+\]
+
+Where:
+- \( \alpha \) is a small constant (typically \( \alpha = 0.01 \)).
+
+#### 2. Parametric ReLU (PReLU)
+
+Parametric ReLU is similar to Leaky ReLU, but the slope for negative inputs is learned during training:
+
+\[
+\text{PReLU}(x) = \max(\alpha x, x)
+\]
+
+Where:
+- \( \alpha \) is a parameter that is learned during the training process.
+
+#### 3. Exponential Linear Unit (ELU)
+
+ELU is another variant that smooths out the output for negative inputs:
+
+```ḿath
+\text{ELU}(x) = 
+\begin{cases} 
+x & \text{if } x > 0 \\
+\alpha (e^x - 1) & \text{if } x \leq 0
+\end{cases}
+```
+
+Where:
+- \( \alpha \) is a positive constant.
+
+### Summary
+
+ReLU and its variants are critical for introducing non-linearity into neural networks, enabling them to model complex patterns in data. The basic ReLU function is computationally efficient and widely used, while variants like Leaky ReLU, PReLU, and ELU offer improvements for specific scenarios, particularly in addressing issues like the "dying ReLU" problem.
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+19. Softmax
+
+
+
+20. R2 score
+
+
+
+
+21. MSE
+
+
+
+22. MSE+L2 Reg
+
+
+
+23. Eigen vectors
+
+
+
+24. Entropy
+
+
+
+25. KMeans
+
+
+
+26. KL Divergence
+
+
+
+27. Log-loss
+
+
+
+28. SVM
+
+
+
+29. Linear Regression
+
+
+
+30. SVD
+
+
+
+31. Lagrange multiplier
 
    
