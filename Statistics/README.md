@@ -427,6 +427,33 @@ Key Points:
 - Perfect prediction results in a Log Loss of 0.
 - Lower Log Loss indicates a better-performing model.
 
+## Log Loss (Logarithmic Loss)
+
+Log Loss, also known as Cross-Entropy Loss, is a metric used to evaluate the performance of classification models that output probabilities. It is particularly useful in binary classification tasks.
+
+### Mathematical Representation
+
+For a binary classification problem, where the true labels $y_i$ are either 0 or 1, and the predicted probabilities $\hat{y}_i$ are between 0 and 1, the Log Loss is defined as:
+
+```math
+\text{Log Loss} = -\frac{1}{N} \sum_{i=1}^{N} \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right]
+```
+
+Where:
+-  $N$ is the number of data points.
+-  $y_i$ is the actual label for the $i$-th data point.
+-  $\hat{y}_i$ is the predicted probability that the $i$-th data point belongs to the positive class (i.e., $y_i = 1$).
+
+### Interpretation
+
+- **Log Loss = 0**: Indicates perfect predictions.
+- **Higher Log Loss**: Indicates worse model performance, with a larger penalty for confident but incorrect predictions.
+- **Goal**: Minimize Log Loss to improve model accuracy and reliability.
+
+
+
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 28. SVM
