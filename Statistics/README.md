@@ -171,9 +171,9 @@ Here, $ \theta^T X $ represents the weighted sum of the input features.
 - **Binary Classification:** Converting the output of a model to a probability.
 - **Neural Networks:** Introducing non-linearity into the model, allowing it to learn complex patterns.
 
---------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 8. Correlation
- ---------------------------------------------------------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------------------------------------
 ***10. Cosine Similarity***
 
 Cosine similarity is a metric used in data science to measure the similarity between two non-zero vectors in an inner product space. It is widely used in various applications such as information retrieval, text mining, and machine learning, particularly in tasks like document similarity, clustering, and recommendation systems.
@@ -222,13 +222,13 @@ Cosine similarity can also be used in image processing to compare feature vector
 
 
 
----------------------------------------------------------------------------------------------------------------------------------------------   
+---------------------------------------------------------------------------------------------------------------------------------------- 
 12. Naive Bayes
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 13. MLE
-14. ------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
 ***15. OLS(ordinary Least Square) method***
 
 The Ordinary Least Squares (OLS) method is implemented for estimating the parameters in a linear regression model. The objective  of OLS is to find the best-fitting line through a set of data points by minimizing the sum of the squared differences (the residuals) between the observed values and the values predicted by the linear model.
