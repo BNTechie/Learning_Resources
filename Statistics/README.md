@@ -67,7 +67,7 @@ Approximately 99.7% of the data falls within three standard deviations of the me
 ## Mathematical Representation of the Normal Distribution
 
 The probability density function (PDF) of a normal distribution is given by:
-
+'
 \[ 
 f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} 
 \]
@@ -89,7 +89,7 @@ Z = \frac{X - \mu}{\sigma}
 
 Where \( Z \) represents the number of standard deviations a data point \( X \) is from the mean.
 
-
+'
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 5. Z-score
