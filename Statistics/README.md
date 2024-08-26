@@ -98,7 +98,30 @@ Where \( Z \) represents the number of standard deviations a data point \( X \) 
 - Hypothesis testing and confidence interval: Many statistical methods, e.g., t-tests, ANOVA, and confidence intervals, assume that the underlying data are normally distributed. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-5. Z-score
+****5. Z-score****
+
+A Z-score or standard score is a statistical measure that describes how far a data point is from the mean of a data set in terms of standard deviations. It is a way to standardize different data points from different distributions to a common scale making it easier to compare them directly.
+
+
+Uses of Z-scores:
+
+Comparing Different Data Points:
+
+Z-scores allow you to compare data points from different distributions, even if those distributions have different means and standard deviations.
+
+Identifying Outliers:
+
+Z-scores can help identify outliers in a data set. Typically, data points with Z-scores greater than +3 or less than -3 are considered outliers.
+
+Standardizing Scores:
+
+Z-scores standardize data, which is especially useful in statistical analysis, when combining results from different scales or distributions.
+
+Probability Calculation:
+
+In a standard normal distribution (a normal distribution with a mean of 0 and a standard deviation of 1), Z-scores can be used to calculate the probability of a data point occurring within a certain range. This is often done using Z-tables.
+
+
  
 -----------------------------------------------------------------------------------------------------------------------------------------   
 7. Sigmoid
