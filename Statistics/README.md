@@ -1,6 +1,6 @@
 # Important mathematical functions and distributions you should be aware of:
 
-***1. Gradient descent***
+***1. Gradient descent:***
    This is crucial for optimizing machine learning models. This optimisation algorithm is used in machine learning to minimize the cost or loss function. It is essential in algorithms such as regression models and neural networks. It is a 1st order iterative algorithm for finding a local minimum of a differentiable multivariate function.
 
 
