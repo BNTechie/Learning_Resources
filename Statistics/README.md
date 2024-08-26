@@ -124,7 +124,19 @@ In a standard normal distribution (a normal distribution with a mean of 0 and a 
 
  
 -----------------------------------------------------------------------------------------------------------------------------------------   
-7. Sigmoid
+****7. Sigmoid****
+
+The sigmoid function is a mathematical function that is commonly used in data science, particularly in machine learning and artificial intelligence. It is a type of activation function, often used in neural networks, especially in logistic regression models. The sigmoid function is valued for its ability to map any real-valued number into a range between 0 and 1, which makes it particularly useful for binary classification problems.
+
+Mathematicall defined as,
+
+$\sigma(x)= \frac{1/1+\exp}$
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
 8. Correlation
 9. Cosine Similarity
 10. Naive Bayes
