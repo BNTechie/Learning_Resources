@@ -268,9 +268,7 @@ Where:
 - \( y_i \) is the observed value of the dependent variable.
 - \( \hat{y}_i \) is the predicted value, calculated as:
 ```math
-\[
 \hat{y}_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + \dots + \beta_n X_{in}
-\]
 ```
 
 
