@@ -48,33 +48,40 @@ In deep networks, gradients can become very small (vanish) or very large (explod
    
 ****3. Normal Distribution****
 
-It is one of the most important distributions in statistics because of its natural occurrence in many processes and its central role in the Central Limit Theorem. This distribution is also known as Gaussian distribution. 
+It is one of the most important distributions in statistics because of its natural occurrence in many processes and its central role in the Central Limit Theorem. This distribution is also known as the Gaussian distribution. 
+
+*****Features:*****
+
+1. Belle shaped curve: The graph of this distribution is bell-shaped, with the highest point at the mean of the data, symmetric about the mean.
+2. Mean, median, and mode: Mean, median, and mode of such distribution are all equal and are located at the center of the distribution.
+3. Standard Deviance and Variance: The spread of the distribution is measured by the standard deviation of the curve. The larger the standard deviation, the wider the curve and vice versa.
+4. 
 
 
 
 
 
-4. Z-score
-5. Sigmoid
-6. Correlation
-7. Cosine Similarity
-8. Naive Bayes
-9. MLE
-10. OLS
-11. F1 score
-12. ReLU
-13. Softmax
-14. R2 score
-15. MSE
-16. MSE+L2 Reg
-17. Eigen vectors
-18. Entropy
-19. KMeans
-20. KL Divergence
-21. Log-loss
-22. SVM
-23. Linear Regression
-24. SVD
-25. Lagrange multiplier
+5. Z-score
+6. Sigmoid
+7. Correlation
+8. Cosine Similarity
+9. Naive Bayes
+10. MLE
+11. OLS
+12. F1 score
+13. ReLU
+14. Softmax
+15. R2 score
+16. MSE
+17. MSE+L2 Reg
+18. Eigen vectors
+19. Entropy
+20. KMeans
+21. KL Divergence
+22. Log-loss
+23. SVM
+24. Linear Regression
+25. SVD
+26. Lagrange multiplier
 
    
