@@ -70,10 +70,7 @@ The probability density function (PDF) of a normal distribution is given by:
 
 
 ```math
-
 f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} 
-
-
 ```
 Where:
 
@@ -150,9 +147,12 @@ Where:
 2. **S-Shaped Curve:** The function has an S-shaped curve, with values approaching 0 for large negative inputs and approaching 1 for large positive inputs.
 
 3. **Derivative:** The derivative of the sigmoid function is:
-   \[
+
+    
+```math
    \sigma'(x) = \sigma(x) \cdot (1 - \sigma(x))
-   \]
+   
+```
    This property is useful during the backpropagation process in training neural networks.
 
 ### Example Usage in Logistic Regression:
@@ -161,12 +161,10 @@ In logistic regression, the sigmoid function is applied to the linear combinatio
 
 
 ```math
-\[
 P(Y=1|X) = \sigma(\theta^T X) = \frac{1}{1 + e^{-(\theta^T X)}}
-\]
 ```
 
-Here, \( \theta^T X \) represents the weighted sum of the input features.
+Here, $ \theta^T X $ represents the weighted sum of the input features.
 
 ### Applications:
 
