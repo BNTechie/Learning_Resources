@@ -333,6 +333,21 @@ x & \text{if } x > 0 \\
 Where:
 - $\alpha$ is a positive constant.
 
+ReLU is the default activation function in many deep learning models, particularly in Convolutional Neural Networks (CNNs) and fully connected layers in feedforward networks, frequently used in image and text processing due to its efficiency and ability to handle large datasets, while also being integral for capturing non-linearities in tasks such as image recognition and natural language processing; however, it has limitations like the "dying ReLU" problem, where neurons can become inactive.
+
+
+Limitations:
+
+- Dying ReLU Problem:
+
+A potential issue where neurons can become inactive and always output 0, particularly if the weights are initialized poorly or if the learning rate is too high. This can lead to parts of the network not learning at all.
+
+- Unbounded Output:
+
+Unlike sigmoid or tanh, ReLU does not cap its output for positive inputs, which can lead to large values and potentially unstable learning if not managed properly.
+
+
+
 ### Summary
 
 ReLU and its variants are critical for introducing non-linearity into neural networks, enabling them to model complex patterns in data. The basic ReLU function is computationally efficient and widely used, while variants like Leaky ReLU, PReLU, and ELU offer improvements for specific scenarios, particularly in addressing issues like the "dying ReLU" problem.
