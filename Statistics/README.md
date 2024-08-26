@@ -195,7 +195,7 @@ Where:
 - $\|\mathbf{B}\|$ is the magnitude (or norm) of vector $\mathbf{B}$.
 - $\theta$ is the angle between the two vectors.
 
-### Interpretation
+****Interpretation*****
 
 - **Cosine Similarity = 1**: The vectors are identical, meaning they point in the same direction (the angle between them is 0°).
 - **Cosine Similarity = 0**: The vectors are orthogonal, meaning they have no similarity (the angle between them is 90°).
@@ -559,7 +559,7 @@ Where:
 - $\mathcal{L}$ is the Lagrange function.
 - $\lambda$ is the Lagrange multiplier.
 
-#### Optimization Conditions
+****Optimization Conditions****
 
 To find the extrema, we take partial derivatives of  $\mathcal{L}$ with respect to each variable and the Lagrange multiplier $\lambda$ and set them to zero:
 
@@ -573,6 +573,6 @@ To find the extrema, we take partial derivatives of  $\mathcal{L}$ with respect 
 
 Solving these equations simultaneously gives the values of the variables $x_1, x_2, \dots, x_n$ and the Lagrange multiplier  $\lambda$ that optimize the original function subject to the given constraint.
 
-### Summary
+****Summary****
 
 The Lagrange multiplier method is an essential tool in data science for solving constrained optimization problems. By incorporating the constraint into the objective function, it allows for efficient optimization, especially in complex models like support vector machines and regularized regression.
