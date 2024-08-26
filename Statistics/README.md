@@ -287,43 +287,42 @@ ReLU (Rectified Linear Unit) is a popular activation function used in neural net
 
 The ReLU function is defined as:
 
-\[
+```math
 \text{ReLU}(x) = \max(0, x)
-\]
+```
 
 Where:
-- \( x \) is the input to the function.
-- The output is \( x \) if \( x \) is greater than 0, and 0 otherwise.
+- $x$ is the input to the function.
+- The output is $x$ if $x$ is greater than 0, and 0 otherwise.
 
 ### Variants of ReLU
 
 #### 1. Leaky ReLU
 
 Leaky ReLU is a variant of ReLU that allows a small, non-zero gradient when the input is negative:
-
-\[
+```math
 \text{Leaky ReLU}(x) = \max(\alpha x, x)
-\]
+```
 
 Where:
-- \( \alpha \) is a small constant (typically \( \alpha = 0.01 \)).
+- $\alpha$ is a small constant (typically $\alpha = 0.01$).
 
 #### 2. Parametric ReLU (PReLU)
 
 Parametric ReLU is similar to Leaky ReLU, but the slope for negative inputs is learned during training:
 
-\[
+```math
 \text{PReLU}(x) = \max(\alpha x, x)
-\]
+```
 
 Where:
-- \( \alpha \) is a parameter that is learned during the training process.
+- $\alpha$ is a parameter that is learned during the training process.
 
 #### 3. Exponential Linear Unit (ELU)
 
 ELU is another variant that smooths out the output for negative inputs:
 
-```ḿath
+```math
 \text{ELU}(x) = 
 \begin{cases} 
 x & \text{if } x > 0 \\
@@ -332,7 +331,7 @@ x & \text{if } x > 0 \\
 ```
 
 Where:
-- \( \alpha \) is a positive constant.
+- $\alpha$ is a positive constant.
 
 ### Summary
 
