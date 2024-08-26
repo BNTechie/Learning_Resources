@@ -181,7 +181,7 @@ Cosine similarity is a metric used in data science to measure the similarity bet
 Cosine similarity measures the cosine of the angle between two vectors, which gives an indication of how similar the two vectors are, regardless of their magnitude. In mathematical representation, 
 
 Cosine similarity between two vectors, 
-The cosine similarity between two vectors \( \mathbf{A} \) and \( \mathbf{B} \) is defined as:
+The cosine similarity between two vectors $\mathbf{A}$ and $\mathbf{B}$ is defined as:
 
 
 ```math
@@ -190,10 +190,10 @@ The cosine similarity between two vectors \( \mathbf{A} \) and \( \mathbf{B} \) 
 ```
 
 Where:
-- \( \mathbf{A} \cdot \mathbf{B} \) is the dot product of the vectors \( \mathbf{A} \) and \( \mathbf{B} \).
-- \( \|\mathbf{A}\| \) is the magnitude (or norm) of vector \( \mathbf{A} \).
-- \( \|\mathbf{B}\| \) is the magnitude (or norm) of vector \( \mathbf{B} \).
-- \( \theta \) is the angle between the two vectors.
+- $ \mathbf{A} \cdot \mathbf{B}$ is the dot product of the vectors $\mathbf{A}$ and  $\mathbf{B}$.
+- $\|\mathbf{A}\|$ is the magnitude (or norm) of vector $\mathbf{A}$.
+- $\|\mathbf{B}\|$ is the magnitude (or norm) of vector $\mathbf{B}$.
+- $\theta$ is the angle between the two vectors.
 
 ### Interpretation
 
