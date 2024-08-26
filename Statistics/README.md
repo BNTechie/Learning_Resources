@@ -244,6 +244,35 @@ Assumptions:
 - Normality: The error terms are normally distributed.
 
 
+In a linear regression model, the relationship between the dependent variable \( y \) and the independent variables \( X_1, X_2, \dots, X_n \) is given by:
+
+```math
+y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \dots + \beta_n X_n + \epsilon
+\]
+
+```
+
+Where:
+- \( \beta_0, \beta_1, \dots, \beta_n \) are the coefficients (parameters) to be estimated.
+- \( \epsilon \) is the error term or residual, representing the difference between the observed value and the predicted value.
+
+### Objective of OLS
+
+The goal of OLS is to find the coefficients \( \beta_0, \beta_1, \dots, \beta_n \) that minimize the sum of the squared residuals:
+```math
+
+\text{Minimize } \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+```
+
+Where:
+- \( y_i \) is the observed value of the dependent variable.
+- \( \hat{y}_i \) is the predicted value, calculated as:
+```math
+\[
+\hat{y}_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + \dots + \beta_n X_{in}
+\]
+```
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 16. F1 score
