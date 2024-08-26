@@ -83,9 +83,9 @@ Where:
 
 The standard normal distribution is a special case where the mean \( \mu = 0 \) and the standard deviation \( \sigma = 1 \). Any normal distribution can be standardized using the Z-score formula:
 
-$ \[
+$ 
 Z = \frac{X - \mu}{\sigma}
-\] $
+$
 
 Where $\( Z \)$ represents the number of standard deviations a data point \( X \) is from the mean.
 
@@ -129,14 +129,8 @@ In a standard normal distribution (a normal distribution with a mean of 0 and a 
 The sigmoid function is a mathematical function that is commonly used in data science, particularly in machine learning and artificial intelligence. It is a type of activation function, often used in neural networks, especially in logistic regression models. The sigmoid function is valued for its ability to map any real-valued number into a range between 0 and 1, which makes it particularly useful for binary classification problems.
 
 Mathematicall defined as,
-
-
 ```math
-\[
 \sigma(x) = \frac{1}{1 + e^{-x}}
-\]
-
-
 ```
 
 Where:
