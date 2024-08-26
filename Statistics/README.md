@@ -64,7 +64,7 @@ Approximately 95% of the data falls within two standard deviations of the mean.
 Approximately 99.7% of the data falls within three standard deviations of the mean.
 
 
-## Mathematical Representation of the Normal Distribution
+***Mathematical Representation of the Normal Distribution***
 
 The probability density function (PDF) of a normal distribution is given by:
 
@@ -79,7 +79,7 @@ Where:
 - \( \sigma^2 \) is the variance of the distribution.
 - \( x \) is the value for which you want to calculate the probability density.
 
-### Standard Normal Distribution
+****Standard Normal Distribution****
 
 The standard normal distribution is a special case where the mean \( \mu = 0 \) and the standard deviation \( \sigma = 1 \). Any normal distribution can be standardized using the Z-score formula:
 
