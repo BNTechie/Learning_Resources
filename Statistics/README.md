@@ -203,7 +203,7 @@ Where:
 
 ***Applications:***
 
--Text Similarity:
+- Text Similarity:
 
 In natural language processing (NLP), cosine similarity is often used to measure the similarity between two documents by representing them as vectors in a term frequency or TF-IDF (Term Frequency-Inverse Document Frequency) space.
 
@@ -211,11 +211,11 @@ In natural language processing (NLP), cosine similarity is often used to measure
 
 Cosine similarity is commonly used in recommendation systems to find items or users that are similar to a given item or user based on their vector representations of preferences or ratings.
 
--Clustering:
+- Clustering:
 
-In clustering algorithms like k-means, cosine similarity can be used to measure the distance between data points and centroids, especially in high-dimensional spaces.
+ In clustering algorithms like k-means, cosine similarity can be used to measure the distance between data points and centroids, especially in high-dimensional spaces.
 
--Image Similarity:
+- Image Similarity:
 
 Cosine similarity can also be used in image processing to compare feature vectors extracted from images, helping to identify similar images.
 
