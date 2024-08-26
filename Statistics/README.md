@@ -83,11 +83,11 @@ Where:
 
 The standard normal distribution is a special case where the mean \( \mu = 0 \) and the standard deviation \( \sigma = 1 \). Any normal distribution can be standardized using the Z-score formula:
 
-\[
+$ \[
 Z = \frac{X - \mu}{\sigma}
-\]
+\] $
 
-Where \( Z \) represents the number of standard deviations a data point \( X \) is from the mean.
+Where $\( Z \)$ represents the number of standard deviations a data point \( X \) is from the mean.
 
 ***Importance in statistics:***
 
