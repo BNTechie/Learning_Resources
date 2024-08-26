@@ -201,7 +201,23 @@ Where:
 - **Cosine Similarity = 0**: The vectors are orthogonal, meaning they have no similarity (the angle between them is 90°).
 - **Cosine Similarity = -1**: The vectors are diametrically opposed, meaning they point in opposite directions (the angle between them is 180°).
 
+***Applications:***
 
+-Text Similarity:
+
+In natural language processing (NLP), cosine similarity is often used to measure the similarity between two documents by representing them as vectors in a term frequency or TF-IDF (Term Frequency-Inverse Document Frequency) space.
+
+-Recommendation Systems:
+
+Cosine similarity is commonly used in recommendation systems to find items or users that are similar to a given item or user based on their vector representations of preferences or ratings.
+
+-Clustering:
+
+In clustering algorithms like k-means, cosine similarity can be used to measure the distance between data points and centroids, especially in high-dimensional spaces.
+
+-Image Similarity:
+
+Cosine similarity can also be used in image processing to compare feature vectors extracted from images, helping to identify similar images.
 
 
 
