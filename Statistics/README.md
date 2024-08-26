@@ -427,7 +427,7 @@ The output of the softmax function is a probability distribution, where each ele
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
-***30. SVD***
+***30. SVD (Singular value Decomposition)***
 
 Singular Value Decomposition (SVD) is a powerful linear algebra technique widely used in data science for dimensionality reduction, matrix factorization, and noise reduction, among other applications. SVD is particularly useful in areas like recommendation systems, image compression, and natural language processing.
 
