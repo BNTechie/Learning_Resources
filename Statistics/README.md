@@ -346,16 +346,6 @@ A potential issue where neurons can become inactive and always output 0, particu
 
 Unlike sigmoid or tanh, ReLU does not cap its output for positive inputs, which can lead to large values and potentially unstable learning if not managed properly.
 
-
-
-### Summary
-
-ReLU and its variants are critical for introducing non-linearity into neural networks, enabling them to model complex patterns in data. The basic ReLU function is computationally efficient and widely used, while variants like Leaky ReLU, PReLU, and ELU offer improvements for specific scenarios, particularly in addressing issues like the "dying ReLU" problem.
-
-
-
-
-
 -------------------------------------------------------------------------------------------------------------------------------------
 ***19. Softmax***
 
@@ -364,7 +354,7 @@ The softmax function is commonly used in multi-class classification tasks in mac
 
 Softmax is generally used in the final layer of a neural network for multi-class classification. It transforms the logits (raw predictions) into probabilities, allowing the model to predict the probability that a given input belongs to each possible class.
 
-### Mathematical Representation
+****Mathematical Representation****
 
 Given a vector of scores $ z = [z_1, z_2, \dots, z_n]$, the softmax function for each element $z_i$ is defined as:
 
@@ -430,7 +420,7 @@ Key Points:
 
 
 
-*** Mathematical Representation***
+***Mathematical Representation***
 
 For a binary classification problem, where the true labels $y_i$ are either 0 or 1, and the predicted probabilities $\hat{y}_i$ are between 0 and 1, the Log Loss is defined as:
 
@@ -455,11 +445,10 @@ Where:
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-28. SVM
+***28. SVM (Support Vector Machine)***
 
 
-------------------------------------------------------------------------------------------------------------------------------------
-29. Linear Regression
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
