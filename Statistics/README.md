@@ -55,33 +55,41 @@ It is one of the most important distributions in statistics because of its natur
 1. Belle shaped curve: The graph of this distribution is bell-shaped, with the highest point at the mean of the data, symmetric about the mean.
 2. Mean, median, and mode: Mean, median, and mode of such distribution are all equal and are located at the center of the distribution.
 3. Standard Deviance and Variance: The spread of the distribution is measured by the standard deviation of the curve. The larger the standard deviation, the wider the curve and vice versa.
-4. 
+4. Empirical Rule (68-95-99.7 Rule):
+
+Approximately 68% of the data falls within one standard deviation of the mean.
+
+Approximately 95% of the data falls within two standard deviations of the mean.
+
+Approximately 99.7% of the data falls within three standard deviations of the mean.
 
 
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------
 5. Z-score
-6. Sigmoid
-7. Correlation
-8. Cosine Similarity
-9. Naive Bayes
-10. MLE
-11. OLS
-12. F1 score
-13. ReLU
-14. Softmax
-15. R2 score
-16. MSE
-17. MSE+L2 Reg
-18. Eigen vectors
-19. Entropy
-20. KMeans
-21. KL Divergence
-22. Log-loss
-23. SVM
-24. Linear Regression
-25. SVD
-26. Lagrange multiplier
+
+-----------------------------------------------------------------------------------------------------------------------------------------   
+7. Sigmoid
+8. Correlation
+9. Cosine Similarity
+10. Naive Bayes
+11. MLE
+12. OLS
+13. F1 score
+14. ReLU
+15. Softmax
+16. R2 score
+17. MSE
+18. MSE+L2 Reg
+19. Eigen vectors
+20. Entropy
+21. KMeans
+22. KL Divergence
+23. Log-loss
+24. SVM
+25. Linear Regression
+26. SVD
+27. Lagrange multiplier
 
    
