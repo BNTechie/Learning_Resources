@@ -178,6 +178,31 @@ Here, $ \theta^T X $ represents the weighted sum of the input features.
 
 Cosine similarity is a metric used in data science to measure the similarity between two non-zero vectors in an inner product space. It is widely used in various applications such as information retrieval, text mining, and machine learning, particularly in tasks like document similarity, clustering, and recommendation systems.
 
+Cosine similarity measures the cosine of the angle between two vectors, which gives an indication of how similar the two vectors are, regardless of their magnitude. In mathematical representation, 
+
+Cosine similarity between two vectors, 
+The cosine similarity between two vectors \( \mathbf{A} \) and \( \mathbf{B} \) is defined as:
+
+
+```math
+\text{Cosine Similarity} = \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
+
+```
+
+Where:
+- \( \mathbf{A} \cdot \mathbf{B} \) is the dot product of the vectors \( \mathbf{A} \) and \( \mathbf{B} \).
+- \( \|\mathbf{A}\| \) is the magnitude (or norm) of vector \( \mathbf{A} \).
+- \( \|\mathbf{B}\| \) is the magnitude (or norm) of vector \( \mathbf{B} \).
+- \( \theta \) is the angle between the two vectors.
+
+### Interpretation
+
+- **Cosine Similarity = 1**: The vectors are identical, meaning they point in the same direction (the angle between them is 0°).
+- **Cosine Similarity = 0**: The vectors are orthogonal, meaning they have no similarity (the angle between them is 90°).
+- **Cosine Similarity = -1**: The vectors are diametrically opposed, meaning they point in opposite directions (the angle between them is 180°).
+
+
+
 
 
 
