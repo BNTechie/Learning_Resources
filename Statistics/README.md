@@ -29,7 +29,7 @@ Minimizes the Mean Squared Error (MSE) to find the best-fit line.
 Minimizes the log-loss to find the decision boundary between classes.
 
 - **Neural Networks:**
-- 
+
 Uses gradient descent to minimize the cost function, typically cross-entropy, by adjusting the weights and biases during backpropagation.
 
 
