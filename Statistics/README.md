@@ -42,11 +42,18 @@ For non-convex functions (like those in deep learning), gradient descent may con
 
 In deep networks, gradients can become very small (vanish) or very large (explode), making learning difficult. Techniques like proper initialization, batch normalization, or alternative architectures (e.g., LSTM in RNNs) can mitigate this.
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
    
    
-3. Normal Distribution
+****3. Normal Distribution****
+
+It is one of the most important distributions in statistics because of its natural occurrence in many processes and its central role in the Central Limit Theorem. This distribution is also known as Gaussian distribution. 
+
+
+
+
+
 4. Z-score
 5. Sigmoid
 6. Correlation
