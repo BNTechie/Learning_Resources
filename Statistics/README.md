@@ -68,10 +68,13 @@ Approximately 99.7% of the data falls within three standard deviations of the me
 
 The probability density function (PDF) of a normal distribution is given by:
 
-\[ 
-f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} 
-\]
 
+```math
+
+f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} 
+
+
+```
 Where:
 
 - \( \mu \) is the mean of the distribution.
@@ -83,9 +86,11 @@ Where:
 
 The standard normal distribution is a special case where the mean \( \mu = 0 \) and the standard deviation \( \sigma = 1 \). Any normal distribution can be standardized using the Z-score formula:
 
-$ 
+
+```math
 Z = \frac{X - \mu}{\sigma}
-$
+
+```
 
 Where $\( Z \)$ represents the number of standard deviations a data point \( X \) is from the mean.
 
