@@ -417,9 +417,6 @@ Key Points:
 - Perfect prediction results in a Log Loss of 0.
 - Lower Log Loss indicates a better-performing model.
 
-
-
-
 ***Mathematical Representation***
 
 For a binary classification problem, where the true labels $y_i$ are either 0 or 1, and the predicted probabilities $\hat{y}_i$ are between 0 and 1, the Log Loss is defined as:
@@ -439,17 +436,61 @@ Where:
 - **Higher Log Loss**: Indicates worse model performance, with a larger penalty for confident but incorrect predictions.
 - **Goal**: Minimize Log Loss to improve model accuracy and reliability.
 
-
-
-
-
-
 ----------------------------------------------------------------------------------------------------------------------------------------
 ***28. SVM (Support Vector Machine)***
 
+Support Vector Machine (SVM) is a powerful supervised learning algorithm used for both classification and regression tasks, though it is primarily known for classification. The main idea behind SVM is to find the hyperplane that best separates the data into different classes. The optimal hyperplane is the one that maximizes the margin between the nearest data points of the different classes, known as support vectors.
 
+#### Key Points:
 
+***Hyperplane:*** In an $n$-dimensional space, a hyperplane is a flat affine subspace of dimension $n-1$ that divides the space into two half-spaces.
 
+***Support Vectors:*** These are the data points that are closest to the hyperplane. They are critical in defining the position and orientation of the hyperplane.
+
+***Margin:*** The distance between the hyperplane and the nearest support vectors from either class. SVM aims to maximize this margin.
+
+***Kernel Trick:*** SVMs can be extended to solve non-linear problems using the kernel trick, which transforms the data into a higher-dimensional space where a linear separator can be found.
+
+## Support Vector Machine (SVM)
+
+Support Vector Machine (SVM) is a supervised learning algorithm that is primarily used for classification tasks. SVM finds the hyperplane that best separates the data points of different classes by maximizing the margin between the nearest points from each class, known as support vectors.
+
+### Mathematical Representation
+
+For a binary classification problem, the goal of SVM is to find a hyperplane that separates the data points \( x_i \) with corresponding labels \( y_i \) (where \( y_i \in \{-1, 1\} \)) by solving the following optimization problem:
+
+```math
+\min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2
+```
+
+Subject to:
+```math
+y_i(\mathbf{w}^T \mathbf{x}_i + b) \geq 1 \quad \forall i
+```
+
+Where:
+- $\mathbf{w}$ is the weight vector perpendicular to the hyperplane.
+- $b$ is the bias term.
+- $\mathbf{x}_i$ are the input feature vectors.
+- $y_i$ are the corresponding class labels.
+
+### Kernel Trick
+
+For non-linearly separable data, SVM can be extended using the kernel trick. The kernel function \( K(x_i, x_j) \) transforms the data into a higher-dimensional space, allowing SVM to find a linear separator in this new space:
+
+```math
+K(x_i, x_j) = \phi(x_i)^T \phi(x_j)
+```
+
+Where $\phi(x)$ is the mapping function to the higher-dimensional space.
+
+### Applications
+
+SVM is widely used in various domains such as:
+- **Text classification**
+- **Image recognition**
+- **Bioinformatics**
+- **Financial forecasting**
 
 -----------------------------------------------------------------------------------------------------------------------------------
 ***30. SVD (Singular value Decomposition)***
