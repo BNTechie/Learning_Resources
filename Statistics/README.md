@@ -233,6 +233,16 @@ Cosine similarity can also be used in image processing to compare feature vector
 
 The Ordinary Least Squares (OLS) method is implemented for estimating the parameters in a linear regression model. The objective  of OLS is to find the best-fitting line through a set of data points by minimizing the sum of the squared differences (the residuals) between the observed values and the values predicted by the linear model.
 
+OLS is widely used in predictive modeling, economic forecasting, and inferential statistics to understand relationships between variables and make predictions based on linear trends in the data.
+
+
+Assumptions:
+
+- Linearity: The relationship between the dependent and independent variables is linear.
+- Independence: Observations are independent of each other.
+- Homoscedasticity: The variance of the error terms is constant across all levels of the independent variables.
+- Normality: The error terms are normally distributed.
+
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
