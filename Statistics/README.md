@@ -7,7 +7,7 @@
    
    Take repeated steps in the opposite direction of the function at the current point, because it the the direction of steepest descent. Conversely, stepping in the direction of the gradient will lead to a local maximum of that function; the procedure is then known as gradient ascent. 
 
-   Gradient descent is not the same as the local search algorithm, even though both are iterative methods for optimization.
+   Gradient descent is not the same as the local search algorithm, even though both are iterative optimization methods.
 
    *****An excellent analogy from Wikipedia:*****
    
@@ -29,7 +29,11 @@ Minimizes the Mean Squared Error (MSE) to find the best-fit line.
 Minimizes the log-loss to find the decision boundary between classes.
 
 - **Neural Networks:**
+- 
 Uses gradient descent to minimize the cost function, typically cross-entropy, by adjusting the weights and biases during backpropagation.
+
+
+
 
 
 
