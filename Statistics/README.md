@@ -267,7 +267,7 @@ Where:
 ```math
 \hat{y}_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + \dots + \beta_n X_{in}
 ```
-
+The coefficients estimated by OLS represent the change in the dependent variable for a one-unit change in the corresponding independent variable, holding all other variables constant.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 16. F1 score
