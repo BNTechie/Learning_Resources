@@ -207,7 +207,7 @@ Where:
 
 In natural language processing (NLP), cosine similarity is often used to measure the similarity between two documents by representing them as vectors in a term frequency or TF-IDF (Term Frequency-Inverse Document Frequency) space.
 
--Recommendation Systems:
+- Recommendation Systems:
 
 Cosine similarity is commonly used in recommendation systems to find items or users that are similar to a given item or user based on their vector representations of preferences or ratings.
 
@@ -224,22 +224,32 @@ Cosine similarity can also be used in image processing to compare feature vector
 
 ---------------------------------------------------------------------------------------------------------------------------------------------   
 12. Naive Bayes
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
 13. MLE
-14. OLS
-15. F1 score
-16. ReLU
-17. Softmax
-18. R2 score
-19. MSE
-20. MSE+L2 Reg
-21. Eigen vectors
-22. Entropy
-23. KMeans
-24. KL Divergence
-25. Log-loss
-26. SVM
-27. Linear Regression
-28. SVD
-29. Lagrange multiplier
+14. ------------------------------------------------------------------------------------------------------------------------------------------
+***15. OLS(ordinary Least Square) method***
+
+The Ordinary Least Squares (OLS) method is implemented for estimating the parameters in a linear regression model. The objective  of OLS is to find the best-fitting line through a set of data points by minimizing the sum of the squared differences (the residuals) between the observed values and the values predicted by the linear model.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+16. F1 score
+17. ReLU
+18. Softmax
+19. R2 score
+20. MSE
+21. MSE+L2 Reg
+22. Eigen vectors
+23. Entropy
+24. KMeans
+25. KL Divergence
+26. Log-loss
+27. SVM
+28. Linear Regression
+29. SVD
+30. Lagrange multiplier
 
    
