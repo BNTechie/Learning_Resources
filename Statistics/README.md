@@ -32,9 +32,15 @@ Minimizes the log-loss to find the decision boundary between classes.
 
 Uses gradient descent to minimize the cost function, typically cross-entropy, by adjusting the weights and biases during backpropagation.
 
+***Challenges:***
 
+****Local vs. Global Minima:****
 
+For non-convex functions (like those in deep learning), gradient descent may converge to a local minimum rather than a global minimum.
 
+****Vanishing/Exploding Gradients:****
+
+In deep networks, gradients can become very small (vanish) or very large (explode), making learning difficult. Techniques like proper initialization, batch normalization, or alternative architectures (e.g., LSTM in RNNs) can mitigate this.
 
 
 
