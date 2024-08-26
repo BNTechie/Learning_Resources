@@ -489,9 +489,9 @@ The Lagrange multiplier is a technique used in optimization to find the extrema 
 
 Given a function $ f(x_1, x_2, \dots, x_n)$ that we want to maximize or minimize, subject to a constraint  $g(x_1, x_2, \dots, x_n) = 0$, the Lagrange function $\mathcal{L}$ is defined as:
 
-\[
+```math
 \mathcal{L}(x_1, x_2, \dots, x_n, \lambda) = f(x_1, x_2, \dots, x_n) - \lambda \cdot g(x_1, x_2, \dots, x_n)
-\]
+```
 
 Where:
 - $\mathcal{L}$ is the Lagrange function.
@@ -499,7 +499,7 @@ Where:
 
 ### Optimization Conditions
 
-To find the extrema, we take partial derivatives of \( \mathcal{L} \) with respect to each variable and the Lagrange multiplier \( \lambda \) and set them to zero:
+To find the extrema, we take partial derivatives of  $\mathcal{L}$ with respect to each variable and the Lagrange multiplier $\lambda$ and set them to zero:
 
 ```math
 \frac{\partial \mathcal{L}}{\partial x_i} = 0 \quad \text{for each } i
