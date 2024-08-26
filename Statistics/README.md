@@ -18,8 +18,15 @@ In this analogy, the persons represent the algorithm, and the path taken down th
 
 
    ''
+****Usage of gradient descent:****
 
-   
+-**Linear Regression:**
+Minimizes the Mean Squared Error (MSE) to find the best-fit line.
+-**Logistic Regression:**
+Minimizes the log-loss to find the decision boundary between classes.
+-**Neural Networks:**
+Uses gradient descent to minimize the cost function, typically cross-entropy, by adjusting the weights and biases during backpropagation.
+
 
 
 
