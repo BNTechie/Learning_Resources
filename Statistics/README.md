@@ -131,9 +131,13 @@ The sigmoid function is a mathematical function that is commonly used in data sc
 Mathematicall defined as,
 
 
+```math
 \[
 \sigma(x) = \frac{1}{1 + e^{-x}}
 \]
+
+
+```
 
 Where:
 
@@ -156,9 +160,12 @@ Where:
 
 In logistic regression, the sigmoid function is applied to the linear combination of input features to model the probability that a given input belongs to a particular class:
 
+
+```math
 \[
 P(Y=1|X) = \sigma(\theta^T X) = \frac{1}{1 + e^{-(\theta^T X)}}
 \]
+```
 
 Here, \( \theta^T X \) represents the weighted sum of the input features.
 
