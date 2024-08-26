@@ -173,24 +173,32 @@ Here, $ \theta^T X $ represents the weighted sum of the input features.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 8. Correlation
-9. Cosine Similarity
-10. Naive Bayes
-11. MLE
-12. OLS
-13. F1 score
-14. ReLU
-15. Softmax
-16. R2 score
-17. MSE
-18. MSE+L2 Reg
-19. Eigen vectors
-20. Entropy
-21. KMeans
-22. KL Divergence
-23. Log-loss
-24. SVM
-25. Linear Regression
-26. SVD
-27. Lagrange multiplier
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+***10. Cosine Similarity***
+
+Cosine similarity is a metric used in data science to measure the similarity between two non-zero vectors in an inner product space. It is widely used in various applications such as information retrieval, text mining, and machine learning, particularly in tasks like document similarity, clustering, and recommendation systems.
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------   
+12. Naive Bayes
+13. MLE
+14. OLS
+15. F1 score
+16. ReLU
+17. Softmax
+18. R2 score
+19. MSE
+20. MSE+L2 Reg
+21. Eigen vectors
+22. Entropy
+23. KMeans
+24. KL Divergence
+25. Log-loss
+26. SVM
+27. Linear Regression
+28. SVD
+29. Lagrange multiplier
 
    
