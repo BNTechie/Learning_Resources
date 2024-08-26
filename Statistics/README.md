@@ -357,10 +357,36 @@ ReLU and its variants are critical for introducing non-linearity into neural net
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
-19. Softmax
+***19. Softmax***
+
+ 
+The softmax function is commonly used in multi-class classification tasks in machine learning. It converts a vector of raw scores (logits) into a probability distribution, where the probabilities of all classes sum to 1.
+
+### Mathematical Representation
+
+Given a vector of scores $ z = [z_1, z_2, \dots, z_n]$, the softmax function for each element $z_i$ is defined as:
+
+
+```math
+\text{softmax}(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{n} e^{z_j}}
+
+```
+
+Where:
+- $z_i$ is the $i$-th element of the input vector $z$.
+- $e^{z_i}$ is the exponential function applied to  $z_i$.
+- The denominator $\sum_{j=1}^{n} e^{z_j}$ is the sum of the exponentials of all elements in the input vector, ensuring that the output probabilities sum to 1.
+
+### Output
+
+The output of the softmax function is a probability distribution, where each element represents the probability of the corresponding class. The sum of all probabilities equals 1, making it suitable for multi-class classification tasks.
 
 
 
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
 20. R2 score
 
 
