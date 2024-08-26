@@ -362,6 +362,8 @@ ReLU and its variants are critical for introducing non-linearity into neural net
  
 The softmax function is commonly used in multi-class classification tasks in machine learning. It converts a vector of raw scores (logits) into a probability distribution, where the probabilities of all classes sum to 1.
 
+Softmax is generally used in the final layer of a neural network for multi-class classification. It transforms the logits (raw predictions) into probabilities, allowing the model to predict the probability that a given input belongs to each possible class.
+
 ### Mathematical Representation
 
 Given a vector of scores $ z = [z_1, z_2, \dots, z_n]$, the softmax function for each element $z_i$ is defined as:
@@ -379,10 +381,7 @@ Where:
 
 ### Output
 
-The output of the softmax function is a probability distribution, where each element represents the probability of the corresponding class. The sum of all probabilities equals 1, making it suitable for multi-class classification tasks.
-
-
-
+The output of the softmax function is a probability distribution, where each element represents the probability of the corresponding class. The sum of all probabilities equals 1, making it suitable for multi-class classification tasks. The class with the highest probability is typically chosen as the predicted class. The magnitude of the logits determines the "confidence" of the predictions.
 
 
 
@@ -391,47 +390,64 @@ The output of the softmax function is a probability distribution, where each ele
 
 
 
-
+-----------------------------------------------------------------------------------------------------------------------------------
 21. MSE
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------
 22. MSE+L2 Reg
 
 
-
+-------------------------------------------------------------------------------------------------------------------------------------
 23. Eigen vectors
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 24. Entropy
 
 
-
+------------------------------------------------------------------------------------------------------------------------------
 25. KMeans
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 26. KL Divergence
 
 
-
+-------------------------------------------------------------------------------------------------------------------------------------
 27. Log-loss
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------
 28. SVM
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------
 29. Linear Regression
 
 
+-----------------------------------------------------------------------------------------------------------------------------------
+***30. SVD***
 
-30. SVD
+Singular Value Decomposition (SVD) is a powerful linear algebra technique widely used in data science for dimensionality reduction, matrix factorization, and noise reduction, among other applications. SVD is particularly useful in areas like recommendation systems, image compression, and natural language processing.
+
+Applications in Data Science:
+
+- Recommendation Systems: SVD is used in collaborative filtering techniques to factorize the user-item interaction matrix, helping to identify latent features and make recommendations.
+Image Compression: By applying SVD to image matrices, it's possible to store the image using fewer data points without significantly losing image quality.
+
+- Natural Language Processing (NLP): SVD is applied in techniques like Latent Semantic Analysis (LSA) to reduce the dimensionality of term-document matrices, revealing underlying relationships between words and documents.
+Advantages:
+
+- Noise Reduction: SVD helps in eliminating noise by focusing on the most significant singular values and ignoring smaller ones, which often represent noise in the data.
+
+- Data Compression: By reducing the dimensionality of the data, SVD enables efficient storage and faster computations.
 
 
 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
 31. Lagrange multiplier
 
    
