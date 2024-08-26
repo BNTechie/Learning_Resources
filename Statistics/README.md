@@ -451,13 +451,9 @@ Support Vector Machine (SVM) is a powerful supervised learning algorithm used fo
 
 ***Kernel Trick:*** SVMs can be extended to solve non-linear problems using the kernel trick, which transforms the data into a higher-dimensional space where a linear separator can be found.
 
-## Support Vector Machine (SVM)
+ ***Mathematical Representation***
 
-Support Vector Machine (SVM) is a supervised learning algorithm that is primarily used for classification tasks. SVM finds the hyperplane that best separates the data points of different classes by maximizing the margin between the nearest points from each class, known as support vectors.
-
-### Mathematical Representation
-
-For a binary classification problem, the goal of SVM is to find a hyperplane that separates the data points \( x_i \) with corresponding labels \( y_i \) (where \( y_i \in \{-1, 1\} \)) by solving the following optimization problem:
+For a binary classification problem, the goal of SVM is to find a hyperplane that separates the data points $x_i$ with corresponding labels $y_i$ (where $y_i \in \{-1, 1\}$) by solving the following optimization problem:
 
 ```math
 \min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2
@@ -563,7 +559,7 @@ Where:
 - $\mathcal{L}$ is the Lagrange function.
 - $\lambda$ is the Lagrange multiplier.
 
-### Optimization Conditions
+#### Optimization Conditions
 
 To find the extrema, we take partial derivatives of  $\mathcal{L}$ with respect to each variable and the Lagrange multiplier $\lambda$ and set them to zero:
 
@@ -580,8 +576,3 @@ Solving these equations simultaneously gives the values of the variables $x_1, x
 ### Summary
 
 The Lagrange multiplier method is an essential tool in data science for solving constrained optimization problems. By incorporating the constraint into the objective function, it allows for efficient optimization, especially in complex models like support vector machines and regularized regression.
-
-
-
-
-   
