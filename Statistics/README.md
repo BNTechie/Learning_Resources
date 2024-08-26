@@ -135,9 +135,37 @@ Mathematicall defined as,
 \sigma(x) = \frac{1}{1 + e^{-x}}
 \]
 
+Where:
 
+- \( x \) is the input to the function.
+- \( e \) is the base of the natural logarithm, approximately equal to 2.71828.
 
+### Key Characteristics:
 
+1. **Output Range:** The sigmoid function outputs values in the range (0, 1). This makes it especially useful for models where outputs need to be interpreted as probabilities.
+
+2. **S-Shaped Curve:** The function has an S-shaped curve, with values approaching 0 for large negative inputs and approaching 1 for large positive inputs.
+
+3. **Derivative:** The derivative of the sigmoid function is:
+   \[
+   \sigma'(x) = \sigma(x) \cdot (1 - \sigma(x))
+   \]
+   This property is useful during the backpropagation process in training neural networks.
+
+### Example Usage in Logistic Regression:
+
+In logistic regression, the sigmoid function is applied to the linear combination of input features to model the probability that a given input belongs to a particular class:
+
+\[
+P(Y=1|X) = \sigma(\theta^T X) = \frac{1}{1 + e^{-(\theta^T X)}}
+\]
+
+Here, \( \theta^T X \) represents the weighted sum of the input features.
+
+### Applications:
+
+- **Binary Classification:** Converting the output of a model to a probability.
+- **Neural Networks:** Introducing non-linearity into the model, allowing it to learn complex patterns.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 8. Correlation
