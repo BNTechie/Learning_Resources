@@ -444,6 +444,23 @@ Advantages:
 - Data Compression: By reducing the dimensionality of the data, SVD enables efficient storage and faster computations.
 
 
+Given a matrix $A$ of size  $m \times n$, the Singular Value Decomposition (SVD) of $A$ is represented as:
+
+```math
+A = U \Sigma V^T
+```
+
+Where:
+- $A$ is the original matrix.
+- $U$ is an $ m \times m $ orthogonal matrix. The columns of $ U $ are known as the left singular vectors of $A$.
+- $ \Sigma$ is an $ m \times n $ diagonal matrix with non-negative real numbers on the diagonal. These numbers are the singular values of $A$, typically arranged in descending order.
+- $V^T$ is the transpose of an $n \times n$ orthogonal matrix  $V$. The columns of $V$ are known as the right singular vectors of $A$.
+
+### Interpretation
+
+- **Left Singular Vectors (U):** Represent the directions of the input space in which the data is spread.
+- **Singular Values $( \Sigma \)$:** Represent the magnitude of the spread in the direction of the corresponding singular vectors.
+- **Right Singular Vectors (V):** Represent the directions of the output space in which the data is spread.
 
 
 
