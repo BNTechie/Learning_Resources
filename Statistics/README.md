@@ -190,7 +190,7 @@ The cosine similarity between two vectors $\mathbf{A}$ and $\mathbf{B}$ is defin
 ```
 
 Where:
-- $ \mathbf{A} $.$\mathbf{B}$ is the dot product of the vectors $\mathbf{A}$ and  $\mathbf{B}$.
+- $ \mathbf{A}.\mathbf{B}$ is the dot product of the vectors $\mathbf{A}$ and  $\mathbf{B}$.
 - $\|\mathbf{A}\|$ is the magnitude (or norm) of vector $\mathbf{A}$.
 - $\|\mathbf{B}\|$ is the magnitude (or norm) of vector $\mathbf{B}$.
 - $\theta$ is the angle between the two vectors.
