@@ -415,7 +415,17 @@ The output of the softmax function is a probability distribution, where each ele
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
-27. Log-loss
+***27. Log-loss***
+
+Log Loss, also known as Logarithmic Loss or Cross-Entropy Loss, is a performance metric commonly used in classification models, particularly in binary classification. Log Loss measures the accuracy of a model by comparing the predicted probabilities of the model to the actual class labels. It penalizes confident predictions that are incorrect, with higher penalties for more confident wrong predictions.
+
+In data science, Log Loss is particularly useful for evaluating models that output probabilities rather than discrete class labels. It encourages models to be both accurate and well-calibrated, making it a important metric for tasks like logistic regression, neural networks, and any probabilistic classifiers.
+
+Key Points:
+
+- Log Loss increases as the predicted probability diverges from the actual label.
+- Perfect prediction results in a Log Loss of 0.
+- Lower Log Loss indicates a better-performing model.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
