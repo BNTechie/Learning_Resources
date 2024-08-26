@@ -67,7 +67,7 @@ Approximately 99.7% of the data falls within three standard deviations of the me
 ## Mathematical Representation of the Normal Distribution
 
 The probability density function (PDF) of a normal distribution is given by:
-'
+
 \[ 
 f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} 
 \]
@@ -89,11 +89,17 @@ Z = \frac{X - \mu}{\sigma}
 
 Where \( Z \) represents the number of standard deviations a data point \( X \) is from the mean.
 
-'
+***Importance in statistics:***
+
+- Central Limit Theorem(CLT):
+
+  The CLT states that the sum or average of a large number of independent and identically distributed random variables, regardless of the original distribution, will be approximately normally distributed. This makes normal distribution invredibly important in inferential statistics.
+
+- Hypothesis testing and confidence interval: Many statistical methods, e.g., t-tests, ANOVA, and confidence intervals, assume that the underlying data are normally distributed. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 5. Z-score
-
+ 
 -----------------------------------------------------------------------------------------------------------------------------------------   
 7. Sigmoid
 8. Correlation
