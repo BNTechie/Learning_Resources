@@ -162,7 +162,7 @@ Here, $ \theta^T X $ represents the weighted sum of the input features.
 - **Neural Networks:** Introducing non-linearity into the model, allowing it to learn complex patterns.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-8. Correlation
+***8. Correlation***
  ---------------------------------------------------------------------------------------------------------------------------------------
 ***10. Cosine Similarity***
 
@@ -220,45 +220,46 @@ Independence Assumption: It assumes that all features are independent of each ot
 
 Applications: Commonly used for text classification tasks like spam detection and sentiment analysis.
 
-## Naive Bayes Classifier
 
-Naive Bayes is a family of probabilistic classifiers that apply Bayes' theorem with the assumption that all features are conditionally independent given the class label. Despite its "naive" assumption, it performs well in many practical situations, particularly in text classification.
+***Mathematical Representation***
 
-### Mathematical Representation
+Given a set of features $X = \{x_1, x_2, \dots, x_n\}$ and a class variable $C$, the goal of Naive Bayes is to determine the posterior probability $P(C \mid X) $ using Bayes' theorem:
 
-Given a set of features \( X = \{x_1, x_2, \dots, x_n\} \) and a class variable \( C \), the goal of Naive Bayes is to determine the posterior probability \( P(C \mid X) \) using Bayes' theorem:
 
-\[
+```math
 P(C \mid X) = \frac{P(C) \cdot P(X \mid C)}{P(X)}
-\]
+```
 
 Where:
-- \( P(C \mid X) \) is the posterior probability of class \( C \) given the features \( X \).
-- \( P(C) \) is the prior probability of the class \( C \).
-- \( P(X \mid C) \) is the likelihood of the features \( X \) given the class \( C \).
-- \( P(X) \) is the evidence, the probability of the features \( X \) across all classes.
+- $P(C \mid X)$ is the posterior probability of class $C$ given the features $Xc.
+- $P(C)$ is the prior probability of the class $C$.
+- $P(X \mid C)$ is the likelihood of the features $X$ given the class $C$.
+- $P(X)$ is the evidence, the probability of the features $X$ across all classes.
 
-### Naive Assumption
+***Naive Assumption***
 
-Under the naive assumption that the features are independent, the likelihood \( P(X \mid C) \) can be simplified to:
+Under the naive assumption that the features are independent, the likelihood $P(X \mid C)$ can be simplified to:
 
-\[
+
+```math
 P(X \mid C) = \prod_{i=1}^{n} P(x_i \mid C)
-\]
+```
 
 Thus, the posterior probability becomes:
 
-\[
+
+```math
 P(C \mid X) = \frac{P(C) \cdot \prod_{i=1}^{n} P(x_i \mid C)}{P(X)}
-\]
+```
 
-Since \( P(X) \) is constant for all classes, it can be ignored when comparing classes, leading to the simplified decision rule:
+Since $P(X)$ is constant for all classes, it can be ignored when comparing classes, leading to the simplified decision rule:
 
-\[
+
+```math
 \hat{C} = \text{argmax}_C \left( P(C) \cdot \prod_{i=1}^{n} P(x_i \mid C) \right)
-\]
+```
 
-Where \( \hat{C} \) is the predicted class.
+Where $\hat{C}$ is the predicted class.
 
 ***Types of Naive Bayes Classifiers***
 
