@@ -327,7 +327,7 @@ MLE is used in a variety of statistical models, including:
 - **Gaussian Mixture Models:** Estimating the means and variances of the mixture components.
     
 ------------------------------------------------------------------------------------------------------------------------------------
-***15. OLS(ordinary Least Square) method***
+***15. OLS (ordinary Least Square) method***
 
 The Ordinary Least Squares (OLS) method is implemented for estimating the parameters in a linear regression model. The objective  of OLS is to find the best-fitting line through a set of data points by minimizing the sum of the squared differences (the residuals) between the observed values and the values predicted by the linear model.
 
@@ -514,7 +514,7 @@ Where:
 - $\sum_{i=1}^{n} (y_i - \hat{y}_i)^2$ is the sum of squares of residuals (also known as SSR or RSS).
 - $\sum_{i=1}^{n} (y_i - \bar{y})^2$ is the total sum of squares (TSS), representing the total variance in the data.
 
-### Interpretation
+***Interpretation***
 
 - **R² = 1:** The model perfectly explains the variance in the data.
 - **R² = 0:** The model does not explain any of the variance, equivalent to using the mean of the data as the prediction.
@@ -528,8 +528,42 @@ The $R²$ Score is widely used in regression analysis to evaluate models such as
 - **Multiple Regression:** Evaluating the combined effect of multiple independent variables on the dependent variable.
 
 -----------------------------------------------------------------------------------------------------------------------------------
-21. MSE
+***Mean Squared Error (MSE)***
 
+Mean Squared Error (MSE) is a widely used metric for evaluating the performance of regression models. It measures the average squared difference between the actual values and the predicted values by the model. MSE is particularly useful for understanding the accuracy of predictions, as it penalizes larger errors more than smaller ones, making it sensitive to outliers.
+
+Key Points:
+
+Squared Differences: MSE calculates the squared differences between the actual and predicted values, emphasizing larger errors.
+
+Interpretation: A lower MSE indicates better model performance, with smaller errors in prediction. However, because it squares the errors, MSE can be disproportionately influenced by outliers.
+
+***Mathematical Representation***
+
+The MSE is defined as:
+
+```math
+\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+```
+
+Where:
+- $y_i$ is the actual value of the dependent variable.
+- $\hat{y}_i$ is the predicted value from the model.
+- $n$ is the number of data points.
+
+***Interpretation***
+
+- **Lower MSE:** Indicates better model performance, as the predictions are closer to the actual values.
+- **Higher MSE:** Suggests poorer model performance, with larger prediction errors.
+- **Sensitivity to Outliers:** Because errors are squared, MSE gives more weight to larger errors, making it sensitive to outliers.
+
+***Applications***
+
+MSE is widely used in:
+
+- **Regression Analysis:** Evaluating and comparing the accuracy of different regression models.
+- **Model Optimization:** Serving as a loss function in machine learning algorithms to guide the model during training.
+- **Forecasting:** Assessing the accuracy of predictive models in time series analysis.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 22. MSE+L2 Reg
