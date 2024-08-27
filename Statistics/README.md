@@ -959,6 +959,10 @@ The penalty term for L2 regularization is \lambda \sum_{i=1}^{n} \theta_i^2
 
 Combines L1 and L2 regularization to take advantage of both techniques, offering a balance between the two.
 
+***L1 Regularization (Lasso)***
+
+L1 regularization, also known as Lasso (Least Absolute Shrinkage and Selection Operator), adds a penalty term to the loss function equal to the absolute value of the coefficients' magnitudes. This form of regularization can shrink some coefficients to zero, effectively performing feature selection by excluding certain features from the model.
+
 ***Mathematical Representation***
 
 The cost function with L1 regularization is:
@@ -971,8 +975,9 @@ Where:
 - $J(\theta)$ is the regularized cost function.
 - $\lambda$ is the regularization parameter, controlling the strength of the penalty.
 - $\theta_i$ are the model parameters (coefficients).
+- 
 
-L2 Regularization (Ridge)
+***L2 Regularization (Ridge)***
 
 L2 regularization, also known as Ridge regression, adds a penalty term to the loss function proportional to the square of the coefficients' magnitudes. This discourages large coefficients but does not shrink them to zero, thus retaining all features but shrinking their impact.
 
