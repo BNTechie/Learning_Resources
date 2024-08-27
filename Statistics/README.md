@@ -440,7 +440,7 @@ Where:
 - $\mu_k$ is the mean of the points in cluster $C_k$, i.e., the centroid of cluster  $k$.
 - The goal is to find the assignment of data points to clusters and the optimal centroids $\mu_k$ that minimize the sum of squared distances.
 
-### Steps of the K-Means Algorithm
+***Steps of the K-Means Algorithm***
 
 1. **Initialization:** Randomly initialize $K$ centroids.
 2. **Assignment:** Assign each data point to the nearest centroid, forming $K$ clusters.
@@ -457,7 +457,42 @@ K-Means is used in various domains such as:
 ----------------------------------------------------------------------------------------------------------------------------------
 ***26. KL Divergence***
 
+Kullback-Leibler (KL) Divergence is a measure of how one probability distribution diverges from a second, reference probability distribution. It is commonly used in data science and machine learning for tasks such as measuring the difference between predicted and actual distributions, model selection, and information theory.
 
+***Key Points:***
+
+Asymmetry: KL Divergence is not symmetric, so the divergence from $P$ to $Q$ is different from the divergence from $Q$ to $𝑃$.
+
+Applications: Used in variational inference, information theory, and evaluating generative models like Variational Autoencoders (VAEs).
+
+Interpretation: A lower KL divergence indicates that the two distributions are more similar.
+
+***Mathematical Representation***
+
+For two discrete probability distributions $P$ and $Q$, the KL Divergence of $Q$ from $P$ is defined as:
+
+
+```math
+D_{KL}(P \| Q) = \sum_{i} P(i) \log \frac{P(i)}{Q(i)}
+
+```
+
+Where:
+- $P(i)$ is the probability of event $i$ under distribution $P$.
+- $Q(i)$ is the probability of event $i$ under distribution $Q$.
+- The summation is over all possible events $i$.
+
+***Interpretation***
+
+- **\( D_{KL}(P \| Q) = 0 \)**: Indicates that the distributions \( P \) and \( Q \) are identical.
+- **Higher Values**: Indicate greater divergence between the distributions.
+
+***Applications***
+
+KL Divergence is used in various data science applications, including:
+- **Model Evaluation:** Comparing predicted probability distributions with actual distributions.
+- **Variational Inference:** In Bayesian methods to approximate complex posterior distributions.
+- **Information Theory:** Measuring the inefficiency of assuming distribution $Q$ when the true distribution is  $P$.
 -------------------------------------------------------------------------------------------------------------------------------------
 ***27. Log-loss***
 
