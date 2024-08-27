@@ -41,16 +41,13 @@ For non-convex functions (like those in deep learning), gradient descent may con
 In deep networks, gradients can become very small (vanish) or very large (explode), making learning difficult. Techniques like proper initialization, batch normalization, or alternative architectures (e.g., LSTM in RNNs) can mitigate this.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-
-   
-   
 ****3. Normal Distribution****
 
 It is one of the most important distributions in statistics because of its natural occurrence in many processes and its central role in the Central Limit Theorem. This distribution is also known as the Gaussian distribution. 
 
 *****Features:*****
 
-1. Belle shaped curve: The graph of this distribution is bell-shaped, with the highest point at the mean of the data, symmetric about the mean.
+1. Bell shaped curve: The graph of this distribution is bell-shaped, with the highest point at the mean of the data, symmetric about the mean.
 2. Mean, median, and mode: Mean, median, and mode of such distribution are all equal and are located at the center of the distribution.
 3. Standard Deviance and Variance: The spread of the distribution is measured by the standard deviation of the curve. The larger the standard deviation, the wider the curve and vice versa.
 4. Empirical Rule (68-95-99.7 Rule):
@@ -95,7 +92,7 @@ Where $\( Z \)$ represents the number of standard deviations a data point \( X \
 - Hypothesis testing and confidence interval: Many statistical methods, e.g., t-tests, ANOVA, and confidence intervals, assume that the underlying data are normally distributed. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-****5. Z-score****
+***5. Z-score***
 
 A Z-score or standard score is a statistical measure that describes how far a data point is from the mean of a data set in terms of standard deviations. It is a way to standardize different data points from different distributions to a common scale making it easier to compare them directly.
 
@@ -159,7 +156,7 @@ P(Y=1|X) = \sigma(\theta^T X) = \frac{1}{1 + e^{-(\theta^T X)}}
 
 Here, $ \theta^T X $ represents the weighted sum of the input features.
 
-### Applications:
+***Applications:***
 
 - **Binary Classification:** Converting the output of a model to a probability.
 - **Neural Networks:** Introducing non-linearity into the model, allowing it to learn complex patterns.
@@ -175,7 +172,6 @@ Cosine similarity measures the cosine of the angle between two vectors, which gi
 
 Cosine similarity between two vectors, 
 The cosine similarity between two vectors $\mathbf{A}$ and $\mathbf{B}$ is defined as:
-
 
 ```math
 \text{Cosine Similarity} = \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
@@ -212,8 +208,70 @@ Cosine similarity is commonly used in recommendation systems to find items or us
 Cosine similarity can also be used in image processing to compare feature vectors extracted from images, helping to identify similar images.
 
 ---------------------------------------------------------------------------------------------------------------------------------------- 
-12. Naive Bayes
+***12. Naive Bayes***
 
+Naive Bayes is a family of simple yet powerful probabilistic classifiers based on applying Bayes' theorem with strong (naive) independence assumptions between the features. Despite its simplicity, Naive Bayes is widely used in various applications such as spam filtering, sentiment analysis, and document classification because it is efficient, easy to implement, and works well with high-dimensional datasets.
+
+Key Points:
+
+Probabilistic Model: Naive Bayes calculates the probability of each class given the features and chooses the class with the highest probability.
+
+Independence Assumption: It assumes that all features are independent of each other given the class, which is rarely true in practice but simplifies the computation.
+
+Applications: Commonly used for text classification tasks like spam detection and sentiment analysis.
+
+## Naive Bayes Classifier
+
+Naive Bayes is a family of probabilistic classifiers that apply Bayes' theorem with the assumption that all features are conditionally independent given the class label. Despite its "naive" assumption, it performs well in many practical situations, particularly in text classification.
+
+### Mathematical Representation
+
+Given a set of features \( X = \{x_1, x_2, \dots, x_n\} \) and a class variable \( C \), the goal of Naive Bayes is to determine the posterior probability \( P(C \mid X) \) using Bayes' theorem:
+
+\[
+P(C \mid X) = \frac{P(C) \cdot P(X \mid C)}{P(X)}
+\]
+
+Where:
+- \( P(C \mid X) \) is the posterior probability of class \( C \) given the features \( X \).
+- \( P(C) \) is the prior probability of the class \( C \).
+- \( P(X \mid C) \) is the likelihood of the features \( X \) given the class \( C \).
+- \( P(X) \) is the evidence, the probability of the features \( X \) across all classes.
+
+### Naive Assumption
+
+Under the naive assumption that the features are independent, the likelihood \( P(X \mid C) \) can be simplified to:
+
+\[
+P(X \mid C) = \prod_{i=1}^{n} P(x_i \mid C)
+\]
+
+Thus, the posterior probability becomes:
+
+\[
+P(C \mid X) = \frac{P(C) \cdot \prod_{i=1}^{n} P(x_i \mid C)}{P(X)}
+\]
+
+Since \( P(X) \) is constant for all classes, it can be ignored when comparing classes, leading to the simplified decision rule:
+
+\[
+\hat{C} = \text{argmax}_C \left( P(C) \cdot \prod_{i=1}^{n} P(x_i \mid C) \right)
+\]
+
+Where \( \hat{C} \) is the predicted class.
+
+***Types of Naive Bayes Classifiers***
+
+1. **Gaussian Naive Bayes:** Assumes that the continuous values associated with each feature are distributed according to a Gaussian (normal) distribution.
+2. **Multinomial Naive Bayes:** Typically used for discrete features like word counts in text classification.
+3. **Bernoulli Naive Bayes:** Suitable for binary/boolean features.
+
+***Applications***
+
+Naive Bayes is widely used in various domains, including:
+- **Spam Filtering:** Classifying emails as spam or not spam.
+- **Sentiment Analysis:** Determining whether a text expresses positive or negative sentiment.
+- **Document Classification:** Categorizing documents into predefined categories.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 13. MLE
