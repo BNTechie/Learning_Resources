@@ -188,7 +188,6 @@ The cosine similarity between two vectors $\mathbf{A}$ and $\mathbf{B}$ is defin
 \text{Cosine Similarity} = \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
 
 ```
-
 Where:
 - $\|\mathbf{A}.\mathbf{B}\|$ is the dot product of the vectors $\mathbf{A}$ and  $\mathbf{B}$.
 - $\|\mathbf{A}\|$ is the magnitude (or norm) of vector $\mathbf{A}$.
@@ -218,9 +217,6 @@ Cosine similarity is commonly used in recommendation systems to find items or us
 - Image Similarity:
 
 Cosine similarity can also be used in image processing to compare feature vectors extracted from images, helping to identify similar images.
-
-
-
 
 ---------------------------------------------------------------------------------------------------------------------------------------- 
 12. Naive Bayes
@@ -270,7 +266,7 @@ Where:
 The coefficients estimated by OLS represent the change in the dependent variable for a one-unit change in the corresponding independent variable, holding all other variables constant.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-16. F1 score
+***16. F1 score***
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -363,7 +359,6 @@ Given a vector of scores $ z = [z_1, z_2, \dots, z_n]$, the softmax function for
 \text{softmax}(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{n} e^{z_j}}
 
 ```
-
 Where:
 - $z_i$ is the $i$-th element of the input vector $z$.
 - $e^{z_i}$ is the exponential function applied to  $z_i$.
@@ -391,9 +386,43 @@ The output of the softmax function is a probability distribution, where each ele
 -------------------------------------------------------------------------------------------------------------------------------------
 ***23. Eigen vectors***
 
-Eigenvectors are fundamental concepts in linear algebra that are widely used in data science for tasks such as dimensionality reduction, data compression, and understanding the structure of data. In a square matrix, an eigenvector is a non-zero vector that changes at most by a scalar factor when that matrix is applied to it. The scalar factor is known as the eigenvalue. Eigenvectors and eigenvalues are important in Principal Component Analysis (PCA), a dimension reduction technique.
+Eigenvectors are fundamental concepts in linear algebra that are widely used in data science for tasks such as dimensionality reduction, data compression, and understanding the structure of data. In a square matrix, an eigenvector is a non-zero vector that changes at most by a scalar factor when that matrix is applied to it. The scalar factor is known as the eigenvalue. Eigenvectors and eigenvalues are important in Principal Component Analysis (PCA), image processing, and other areas where data reduction and transformation are necessary.
+
+***Mathematical Representation***
+
+Given a square matrix $A$, an eigenvector $\mathbf{v}$ and its corresponding eigenvalue $\lambda$ satisfy the following equation:
 
 
+```math
+A \mathbf{v} = \lambda \mathbf{v}
+```
+
+Where:
+- $A$ is an $n \times n$ matrix.
+- $\mathbf{v}$ is the eigenvector, a non-zero vector.
+- $\lambda$ is the eigenvalue, a scalar.
+
+***Finding Eigenvectors and Eigenvalues***
+
+To find the eigenvalues \( \lambda \), we solve the characteristic equation:
+
+```math
+\det(A - \lambda I) = 0
+```
+
+Where $I$ is the identity matrix of the same size as $A$, and $\det$ represents the determinant of the matrix.
+
+Once the eigenvalues are found, the corresponding eigenvectors $\mathbf{v}$ are obtained by solving the linear system:
+
+
+```math
+(A - \lambda I) \mathbf{v} = 0
+```
+
+Eigenvectors are used in various data science applications, such as:
+- **Principal Component Analysis (PCA):** Reducing the dimensionality of large datasets.
+- **Image Processing:** Compressing and enhancing images.
+- **Graph Theory:** Analyzing graph structures through spectral clustering.
 ----------------------------------------------------------------------------------------------------------------------------------
 24. Entropy
 
