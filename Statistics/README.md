@@ -389,7 +389,9 @@ The output of the softmax function is a probability distribution, where each ele
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
-23. Eigen vectors
+***23. Eigen vectors***
+
+Eigenvectors are fundamental concepts in linear algebra that are widely used in data science for tasks such as dimensionality reduction, data compression, and understanding the structure of data. In a square matrix, an eigenvector is a non-zero vector that changes at most by a scalar factor when that matrix is applied to it. The scalar factor is known as the eigenvalue. Eigenvectors and eigenvalues are important in Principal Component Analysis (PCA), a dimension reduction technique.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
