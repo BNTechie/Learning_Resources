@@ -905,11 +905,11 @@ Dual Problem Formulation:
 
 In some cases, solving the dual problem (in terms of Lagrange multipliers) can be more efficient than solving the original problem directly.
 
-## Lagrange Multiplier
+***Lagrange Multiplier***
 
 The Lagrange multiplier is a technique used in optimization to find the extrema of a function subject to equality constraints. It transforms a constrained problem into an unconstrained one by introducing additional variables called Lagrange multipliers.
 
-### Problem Setup
+***Problem Setup***
 
 Given a function $ f(x_1, x_2, \dots, x_n)$ that we want to maximize or minimize, subject to a constraint  $g(x_1, x_2, \dots, x_n) = 0$, the Lagrange function $\mathcal{L}$ is defined as:
 
@@ -927,10 +927,11 @@ To find the extrema, we take partial derivatives of  $\mathcal{L}$ with respect 
 
 ```math
 \frac{\partial \mathcal{L}}{\partial x_i} = 0 \quad \text{for each } i
+```
+```math
+\frac{\partial \mathcal{L}}{\partial \lambda} = 0 ```
 
-
-\frac{\partial \mathcal{L}}{\partial \lambda} = 0
-```                                                      Solving these equations simultaneously gives the values of the variables $x_1, x_2, \dots, x_n$ and the Lagrange multiplier  $\lambda$ that optimize the original function subject to the given constraint.
+Solving these equations simultaneously gives the values of the variables $ x_1, x_2, \dots, x_n $ and the Lagrange multiplier  $ \lambda $ that optimize the original function subject to the given constraint.
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 ***23.L1 and L2 regularization***
