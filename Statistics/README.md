@@ -41,7 +41,7 @@ For non-convex functions (like those in deep learning), gradient descent may con
 In deep networks, gradients can become very small (vanish) or very large (explode), making learning difficult. Techniques like proper initialization, batch normalization, or alternative architectures (e.g., LSTM in RNNs) can mitigate this.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-****3. Normal Distribution****
+****2. Normal Distribution****
 
 It is one of the most important distributions in statistics because of its natural occurrence in many processes and its central role in the Central Limit Theorem. This distribution is also known as the Gaussian distribution. 
 
@@ -92,7 +92,7 @@ Where $\( Z \)$ represents the number of standard deviations a data point \( X \
 - Hypothesis testing and confidence interval: Many statistical methods, e.g., t-tests, ANOVA, and confidence intervals, assume that the underlying data are normally distributed. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-***5. Z-score***
+***3. Z-score***
 
 A Z-score or standard score is a statistical measure that describes how far a data point is from the mean of a data set in terms of standard deviations. It is a way to standardize different data points from different distributions to a common scale making it easier to compare them directly.
 
@@ -116,7 +116,7 @@ Probability Calculation:
 In a standard normal distribution (a normal distribution with a mean of 0 and a standard deviation of 1), Z-scores can be used to calculate the probability of a data point occurring within a certain range. This is often done using Z-tables.
 
 -----------------------------------------------------------------------------------------------------------------------------------------   
-****7. Sigmoid****
+****4. Sigmoid****
 
 The sigmoid function is a mathematical function that is commonly used in data science, particularly in machine learning and artificial intelligence. It is a type of activation function, often used in neural networks, especially in logistic regression models. The sigmoid function is valued for its ability to map any real-valued number into a range between 0 and 1, which makes it particularly useful for binary classification problems.
 
@@ -145,7 +145,7 @@ Where:
 ```
    This property is useful during the backpropagation process in training neural networks.
 
-### Example Usage in Logistic Regression:
+***Example Usage in Logistic Regression:***
 
 In logistic regression, the sigmoid function is applied to the linear combination of input features to model the probability that a given input belongs to a particular class:
 
@@ -162,7 +162,7 @@ Here, $ \theta^T X $ represents the weighted sum of the input features.
 - **Neural Networks:** Introducing non-linearity into the model, allowing it to learn complex patterns.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-***8.Correlation***
+***5.Correlation***
 
 Correlation is a statistical measure that describes the strength and direction of a linear relationship between two variables. It quantifies how much two variables change together and is widely used in data science to understand the relationship between different features in a dataset. Correlation is fundamental in exploratory data analysis, feature selection, and in building predictive models.
 
@@ -210,7 +210,7 @@ Correlation is widely used in:
 - **Predictive Modeling:** Understanding how changes in one variable might predict changes in another.
 
  ---------------------------------------------------------------------------------------------------------------------------------------
-***10. Cosine Similarity***
+***6. Cosine Similarity***
 
 Cosine similarity is a metric used in data science to measure the similarity between two non-zero vectors in an inner product space. It is widely used in various applications such as information retrieval, text mining, and machine learning, particularly in tasks like document similarity, clustering, and recommendation systems.
 
@@ -254,7 +254,7 @@ Cosine similarity is commonly used in recommendation systems to find items or us
 Cosine similarity can also be used in image processing to compare feature vectors extracted from images, helping to identify similar images.
 
 ---------------------------------------------------------------------------------------------------------------------------------------- 
-***12. Naive Bayes***
+***7. Naive Bayes***
 
 Naive Bayes is a family of simple yet powerful probabilistic classifiers based on applying Bayes' theorem with strong (naive) independence assumptions between the features. Despite its simplicity, Naive Bayes is widely used in various applications such as spam filtering, sentiment analysis, and document classification because it is efficient, easy to implement, and works well with high-dimensional datasets.
 
@@ -321,7 +321,7 @@ Naive Bayes is widely used in various domains, including:
 - **Document Classification:** Categorizing documents into predefined categories.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-***13.Maximum Likelihood Estimation (MLE)***
+***8.Maximum Likelihood Estimation (MLE)***
 
 Maximum Likelihood Estimation (MLE) is a method used in statistics and data science to estimate the parameters of a statistical model. The idea behind MLE is to find the parameter values that maximize the likelihood function, which measures how likely it is that the observed data was generated by the model given a set of parameters. MLE is widely used because it provides a consistent and efficient way to estimate parameters for various models, including linear regression, logistic regression, and more complex probabilistic models.
 
@@ -373,7 +373,7 @@ MLE is used in a variety of statistical models, including:
 - **Gaussian Mixture Models:** Estimating the means and variances of the mixture components.
     
 ------------------------------------------------------------------------------------------------------------------------------------
-***15. OLS (ordinary Least Square) method***
+***9. OLS (ordinary Least Square) method***
 
 The Ordinary Least Squares (OLS) method is implemented for estimating the parameters in a linear regression model. The objective  of OLS is to find the best-fitting line through a set of data points by minimizing the sum of the squared differences (the residuals) between the observed values and the values predicted by the linear model.
 
@@ -413,7 +413,7 @@ Where:
 The coefficients estimated by OLS represent the change in the dependent variable for a one-unit change in the corresponding independent variable, holding all other variables constant.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-***16. F1 score***
+***10. F1 score***
 
 The F1 Score is a metric used to evaluate the performance of a classification model, particularly in scenarios where the dataset is imbalanced. It combines precision and recall into a single metric by calculating their harmonic mean.
 
@@ -447,7 +447,7 @@ The F1 Score is useful in:
 - **Imbalanced Classification Problems:** Where one class is much more frequent than the other, making accuracy an unreliable metric.
 - **Binary Classification:** Evaluating models in medical diagnosis, fraud detection, and spam filtering.
 ---------------------------------------------------------------------------------------------------------------------------------------
-***17. ReLU***
+***11. ReLU***
 
 ReLU (Rectified Linear Unit) is one of the most widely used activation functions in deep learning and neural networks. It plays a significant role in enabling neural networks to learn complex patterns by introducing non-linearity into the model.
 
@@ -515,7 +515,7 @@ A potential issue where neurons can become inactive and always output 0, particu
 Unlike sigmoid or tanh, ReLU does not cap its output for positive inputs, which can lead to large values and potentially unstable learning if not managed properly.
 
 -------------------------------------------------------------------------------------------------------------------------------------
-***19. Softmax***
+***12. Softmax***
 
  The softmax function is commonly used in multi-class classification tasks in machine learning. It converts a vector of raw scores (logits) into a probability distribution, where the probabilities of all classes sum to 1.
 
@@ -541,7 +541,7 @@ The output of the softmax function is a probability distribution, where each ele
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
-***20. R2 score***
+***13. R2 score***
 
 $R²$ Score, also known as the coefficient of determination, is a statistical measure that represents the proportion of the variance for a dependent variable that is explained by an independent variable or variables in a regression model. It provides an indication of how well the model's predictions approximate the real data points. The R² score is commonly used to assess the goodness of fit of a regression model.
 
@@ -574,7 +574,7 @@ The $R²$ Score is widely used in regression analysis to evaluate models such as
 - **Multiple Regression:** Evaluating the combined effect of multiple independent variables on the dependent variable.
 
 -----------------------------------------------------------------------------------------------------------------------------------
-***Mean Squared Error (MSE)***
+***14.Mean Squared Error (MSE)***
 
 Mean Squared Error (MSE) is a widely used metric for evaluating the performance of regression models. It measures the average squared difference between the actual values and the predicted values by the model. MSE is particularly useful for understanding the accuracy of predictions, as it penalizes larger errors more than smaller ones, making it sensitive to outliers.
 
@@ -612,7 +612,7 @@ MSE is widely used in:
 - **Forecasting:** Assessing the accuracy of predictive models in time series analysis.
 
 -------------------------------------------------------------------------------------------------------------------------------------
-***23. Eigen vectors***
+***15. Eigen vectors***
 
 Eigenvectors are fundamental concepts in linear algebra that are widely used in data science for tasks such as dimensionality reduction, data compression, and understanding the structure of data. In a square matrix, an eigenvector is a non-zero vector that changes at most by a scalar factor when that matrix is applied to it. The scalar factor is known as the eigenvalue. Eigenvectors and eigenvalues are important in Principal Component Analysis (PCA), image processing, and other areas where data reduction and transformation are necessary.
 
@@ -652,7 +652,7 @@ Eigenvectors are used in various data science applications, such as:
 - **Image Processing:** Compressing and enhancing images.
 - **Graph Theory:** Analyzing graph structures through spectral clustering.
 ----------------------------------------------------------------------------------------------------------------------------------
-***24. Entropy***
+***16. Entropy***
 
 Entropy is a measure of uncertainty or randomness in a set of data. In the context of information theory and data science, entropy quantifies the amount of uncertainty or impurity in a dataset, particularly in classification tasks. It is a key concept used in various algorithms, such as decision trees, where it helps to determine the best feature to split the data by calculating how much information gain is achieved by the split.
 
@@ -696,7 +696,7 @@ Entropy is used in various applications, including:
 - **Information Theory:** Measuring the amount of information or surprise in a random variable.
 
 ------------------------------------------------------------------------------------------------------------------------------
-***25. KMeans***
+***17. KMeans***
 
 K-Means is a popular unsupervised learning algorithm implemented for clustering data into a predefined number of groups (or clusters). The algorithm works by partitioning a dataset into $𝐾$ distinct, non-overlapping clusters based on the similarity of the data points. K-Means is widely used in various applications such as market segmentation, image compression, and pattern recognition due to its simplicity and effectiveness.
 
@@ -728,7 +728,7 @@ K-Means is used in various domains such as:
 - **Pattern Recognition:** Identifying patterns in data by grouping similar data points.
 
 ----------------------------------------------------------------------------------------------------------------------------------
-***26. KL Divergence***
+***18. KL Divergence***
 
 Kullback-Leibler (KL) Divergence is a measure of how one probability distribution diverges from a second, reference probability distribution. It is commonly used in data science and machine learning for tasks such as measuring the difference between predicted and actual distributions, model selection, and information theory.
 
@@ -767,7 +767,7 @@ KL Divergence is used in various data science applications, including:
 - **Variational Inference:** In Bayesian methods to approximate complex posterior distributions.
 - **Information Theory:** Measuring the inefficiency of assuming distribution $Q$ when the true distribution is  $P$.
 -------------------------------------------------------------------------------------------------------------------------------------
-***27. Log-loss***
+***19. Log-loss***
 
 Log Loss, also known as Logarithmic Loss or Cross-Entropy Loss, is a performance metric commonly used in classification models, particularly in binary classification. Log Loss measures the accuracy of a model by comparing the predicted probabilities of the model to the actual class labels. It penalizes confident predictions that are incorrect, with higher penalties for more confident wrong predictions.
 
@@ -799,7 +799,7 @@ Where:
 - **Goal**: Minimize Log Loss to improve model accuracy and reliability.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-***28. SVM (Support Vector Machine)***
+***20. SVM (Support Vector Machine)***
 
 Support Vector Machine (SVM) is a powerful supervised learning algorithm used for both classification and regression tasks, though it is primarily known for classification. The main idea behind SVM is to find the hyperplane that best separates the data into different classes. The optimal hyperplane is the one that maximizes the margin between the nearest data points of the different classes, known as support vectors.
 
@@ -851,7 +851,7 @@ SVM is widely used in various domains such as:
 - **Financial forecasting**
 
 -----------------------------------------------------------------------------------------------------------------------------------
-***30. SVD (Singular value Decomposition)***
+***21. SVD (Singular value Decomposition)***
 
 Singular Value Decomposition (SVD) is a powerful linear algebra technique widely used in data science for dimensionality reduction, matrix factorization, and noise reduction, among other applications. SVD is particularly useful in areas like recommendation systems, image compression, and natural language processing.
 
@@ -889,7 +889,7 @@ Where:
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
-***31. Lagrange multiplier***
+***22. Lagrange multiplier***
 
 The Lagrange multiplier is a strategy used in optimization problems to find the local maxima and minima of a function subject to equality constraints. It is particularly useful in data science for problems involving constrained optimization, such as maximizing or minimizing a cost function while satisfying certain constraints. This technique allows the conversion of a constrained problem into an unconstrained one by introducing additional variables, known as Lagrange multipliers.
 
