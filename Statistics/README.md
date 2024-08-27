@@ -368,8 +368,39 @@ The coefficients estimated by OLS represent the change in the dependent variable
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 ***16. F1 score***
+## F1 Score
 
+The F1 Score is a metric used to evaluate the performance of a classification model, particularly in scenarios where the dataset is imbalanced. It combines precision and recall into a single metric by calculating their harmonic mean.
 
+***Mathematical Representation***
+
+The F1 Score is defined as:
+
+```math
+\text{F1 Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+```
+
+Where:
+- **Precision** is the ratio of correctly predicted positive observations to the total predicted positives:
+  ```math
+  \text{Precision} = \frac{\text{True Positives (TP)}}{\text{True Positives (TP)} + \text{False Positives (FP)}}
+  ```
+- **Recall** is the ratio of correctly predicted positive observations to all observations in the actual class:
+  ```math
+  \text{Recall} = \frac{\text{True Positives (TP)}}{\text{True Positives (TP)} + \text{False Negatives (FN)}}
+  ```
+
+***Interpretation***
+
+- **F1 Score = 1**: Perfect precision and recall (ideal model performance)
+- **F1 Score = 0**: Poor precision and recall (worst model performance).
+- The F1 Score ranges between 0 and 1, where 1 indicates the best possible performance, and 0 indicates the worst.
+
+### Applications
+
+The F1 Score is useful in:
+- **Imbalanced Classification Problems:** Where one class is much more frequent than the other, making accuracy an unreliable metric.
+- **Binary Classification:** Evaluating models in medical diagnosis, fraud detection, and spam filtering.
 ---------------------------------------------------------------------------------------------------------------------------------------
 ***17. ReLU***
 
