@@ -428,8 +428,40 @@ Eigenvectors are used in various data science applications, such as:
 
 
 ------------------------------------------------------------------------------------------------------------------------------
-25. KMeans
+***25. KMeans***
 
+K-Means is a popular unsupervised learning algorithm implemented for clustering data into a predefined number of groups (or clusters). The algorithm works by partitioning a dataset into $𝐾$ distinct, non-overlapping clusters based on the similarity of the data points. K-Means is widely used in various applications such as market segmentation, image compression, and pattern recognition due to its simplicity and effectiveness.
+
+## K-Means Clustering
+
+K-Means is an unsupervised learning algorithm used to partition a dataset into $K$ clusters, where each data point belongs to the cluster with the nearest centroid. The algorithm iteratively refines the cluster centroids to minimize the variance within each cluster.
+
+### Mathematical Representation
+
+Given a dataset $ X = \{x_1, x_2, \dots, x_n\}$ where each  $x_i$ is a data point, the K-Means algorithm aims to partition the data into $K$ clusters $C = \{C_1, C_2, \dots, C_K\}$ by minimizing the following objective function:
+
+```math
+\text{argmin}_{C} \sum_{k=1}^{K} \sum_{x_i \in C_k} \|x_i - \mu_k\|^2
+```
+
+Where:
+- $\|x_i - \mu_k\|^2$  is the squared Euclidean distance between a data point $x_i$ and the centroid $\mu_k$ of cluster $ C_k$.
+- $\mu_k$ is the mean of the points in cluster $C_k$, i.e., the centroid of cluster  $k$.
+- The goal is to find the assignment of data points to clusters and the optimal centroids $\mu_k$ that minimize the sum of squared distances.
+
+### Steps of the K-Means Algorithm
+
+1. **Initialization:** Randomly initialize $K$ centroids.
+2. **Assignment:** Assign each data point to the nearest centroid, forming $K$ clusters.
+3. **Update:** Recalculate the centroids of the clusters based on the mean of the data points in each cluster.
+4. **Repeat:** Repeat the assignment and update steps until the centroids no longer change or the change is below a predefined threshold.
+
+***Applications***
+
+K-Means is used in various domains such as:
+- **Market Segmentation:** Grouping customers with similar behaviors or demographics.
+- **Image Compression:** Reducing the number of colors in an image by clustering similar colors.
+- **Pattern Recognition:** Identifying patterns in data by grouping similar data points.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 26. KL Divergence
