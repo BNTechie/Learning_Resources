@@ -15,8 +15,6 @@
 The basic intuition behind gradient descent can be illustrated by a hypothetical scenario. Persons are stuck in the mountains and are trying to get down (i.e., trying to find the global minimum). There is heavy fog such that visibility is extremely low. Therefore, the path down the mountain is not visible, so they must use local information to find the minimum. They can use the method of gradient descent, which involves looking at the steepness of the hill at their current position, then proceeding in the direction with the steepest descent (i.e., downhill). If they were trying to find the top of the mountain (i.e., the maximum), then they would proceed in the direction of steepest ascent (i.e., uphill). Using this method, they would eventually find their way down the mountain or possibly get stuck in some hole (i.e., local minimum or saddle point), like a mountain lake. However, assume also that the steepness of the hill is not immediately obvious with simple observation, but rather it requires a sophisticated instrument to measure, which the persons happen to have at the moment. It takes quite some time to measure the steepness of the hill with the instrument, thus they should minimize their use of the instrument if they wanted to get down the mountain before sunset. The difficulty then is choosing the frequency at which they should measure the steepness of the hill so not to go off track.
 
 In this analogy, the persons represent the algorithm, and the path taken down the mountain represents the sequence of parameter settings that the algorithm will explore. The steepness of the hill represents the slope of the function at that point. The instrument used to measure steepness is differentiation. The direction they choose to travel in aligns with the gradient of the function at that point. The amount of time they travel before taking another measurement is the step size.''
-
-
    
 ****Usage of gradient descent:****
 
@@ -68,7 +66,6 @@ Approximately 99.7% of the data falls within three standard deviations of the me
 
 The probability density function (PDF) of a normal distribution is given by:
 
-
 ```math
 f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} 
 ```
@@ -83,12 +80,10 @@ Where:
 
 The standard normal distribution is a special case where the mean \( \mu = 0 \) and the standard deviation \( \sigma = 1 \). Any normal distribution can be standardized using the Z-score formula:
 
-
 ```math
 Z = \frac{X - \mu}{\sigma}
 
 ```
-
 Where $\( Z \)$ represents the number of standard deviations a data point \( X \) is from the mean.
 
 ***Importance in statistics:***
@@ -123,8 +118,6 @@ Probability Calculation:
 
 In a standard normal distribution (a normal distribution with a mean of 0 and a standard deviation of 1), Z-scores can be used to calculate the probability of a data point occurring within a certain range. This is often done using Z-tables.
 
-
- 
 -----------------------------------------------------------------------------------------------------------------------------------------   
 ****7. Sigmoid****
 
@@ -140,7 +133,7 @@ Where:
 - \( x \) is the input to the function.
 - \( e \) is the base of the natural logarithm, approximately equal to 2.71828.
 
-### Key Characteristics:
+*** Key Characteristics:***
 
 1. **Output Range:** The sigmoid function outputs values in the range (0, 1). This makes it especially useful for models where outputs need to be interpreted as probabilities.
 
@@ -230,7 +223,6 @@ Cosine similarity can also be used in image processing to compare feature vector
 The Ordinary Least Squares (OLS) method is implemented for estimating the parameters in a linear regression model. The objective  of OLS is to find the best-fitting line through a set of data points by minimizing the sum of the squared differences (the residuals) between the observed values and the values predicted by the linear model.
 
 OLS is widely used in predictive modeling, economic forecasting, and inferential statistics to understand relationships between variables and make predictions based on linear trends in the data.
-
 
 Assumptions:
 
@@ -340,15 +332,13 @@ Unlike sigmoid or tanh, ReLU does not cap its output for positive inputs, which 
 -------------------------------------------------------------------------------------------------------------------------------------
 ***19. Softmax***
 
- 
-The softmax function is commonly used in multi-class classification tasks in machine learning. It converts a vector of raw scores (logits) into a probability distribution, where the probabilities of all classes sum to 1.
+ The softmax function is commonly used in multi-class classification tasks in machine learning. It converts a vector of raw scores (logits) into a probability distribution, where the probabilities of all classes sum to 1.
 
 Softmax is generally used in the final layer of a neural network for multi-class classification. It transforms the logits (raw predictions) into probabilities, allowing the model to predict the probability that a given input belongs to each possible class.
 
 ****Mathematical Representation****
 
 Given a vector of scores $ z = [z_1, z_2, \dots, z_n]$, the softmax function for each element $z_i$ is defined as:
-
 
 ```math
 \text{softmax}(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{n} e^{z_j}}
@@ -359,7 +349,7 @@ Where:
 - $e^{z_i}$ is the exponential function applied to  $z_i$.
 - The denominator $\sum_{j=1}^{n} e^{z_j}$ is the sum of the exponentials of all elements in the input vector, ensuring that the output probabilities sum to 1.
 
-### Output
+***Output***
 
 The output of the softmax function is a probability distribution, where each element represents the probability of the corresponding class. The sum of all probabilities equals 1, making it suitable for multi-class classification tasks. The class with the highest probability is typically chosen as the predicted class. The magnitude of the logits determines the "confidence" of the predictions.
 
@@ -484,7 +474,7 @@ Where:
 
 ***Interpretation***
 
-- **\( D_{KL}(P \| Q) = 0 \)**: Indicates that the distributions \( P \) and \( Q \) are identical.
+- **$ D_{KL}(P \| Q) = 0 $**: Indicates that the distributions $P$ and $Q$ are identical.
 - **Higher Values**: Indicate greater divergence between the distributions.
 
 ***Applications***
