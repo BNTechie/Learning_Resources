@@ -945,14 +945,14 @@ L1 and L2 regularization are techniques used in machine learning to prevent over
 
 Adds a penalty equal to the absolute value of the magnitude of coefficients.
 Encourages sparsity, meaning it tends to drive some coefficients to zero, effectively performing feature selection.
-The penalty term for L1 regularization is 
+The penalty term for L1 regularization is \lambda \sum_{i=1}^{n} |\theta_i|
 
 ​
 - L2 Regularization (Ridge):
 
 Adds a penalty equal to the square of the magnitude of coefficients.
 Encourages smaller coefficients but does not drive them exactly to zero, so all features are retained.
-The penalty term for L2 regularization is 
+The penalty term for L2 regularization is \lambda \sum_{i=1}^{n} \theta_i^2
 
 ​
 - Combination (Elastic Net):
@@ -976,11 +976,9 @@ L2 Regularization (Ridge)
 
 L2 regularization, also known as Ridge regression, adds a penalty term to the loss function proportional to the square of the coefficients' magnitudes. This discourages large coefficients but does not shrink them to zero, thus retaining all features but shrinking their impact.
 
-## L2 Regularization (Ridge)
-
 L2 regularization adds a penalty term to the cost function, equal to the sum of the squared values of the coefficients. This encourages smaller coefficient values, helping to prevent overfitting while retaining all features in the model.
 
-### Mathematical Representation
+***Mathematical Representation***
 
 The cost function with L2 regularization is:
 ```math
@@ -992,5 +990,9 @@ Where:
 - $\lambda$ is the regularization parameter, controlling the strength of the penalty.
 - $\theta_i$ are the model parameters (coefficients).
 
+***Choosing Between L1 and L2 Regularization***
+
+L1 Regularization is preferred when you want to perform feature selection because it can shrink some coefficients to zero.
+L2 Regularization is useful when all features should be retained but with reduced influence, as it shrinks coefficients uniformly.
 
 
