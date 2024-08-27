@@ -1,4 +1,4 @@
-# Important mathematical functions and distributions you should be aware of:
+# Common mathematical functions and distributions
 
 ***1. Gradient descent:***
    This is crucial for optimizing machine learning models. This optimisation algorithm is used in machine learning to minimize the cost or loss function. It is essential in algorithms such as regression models and neural networks. It is a 1st order iterative algorithm for finding a local minimum of a differentiable multivariate function.
@@ -927,12 +927,10 @@ To find the extrema, we take partial derivatives of  $\mathcal{L}$ with respect 
 
 ```math
 \frac{\partial \mathcal{L}}{\partial x_i} = 0 \quad \text{for each } i
-```
 
-```math
+
 \frac{\partial \mathcal{L}}{\partial \lambda} = 0
-```
-Solving these equations simultaneously gives the values of the variables $x_1, x_2, \dots, x_n$ and the Lagrange multiplier  $\lambda$ that optimize the original function subject to the given constraint.
+```                                                      Solving these equations simultaneously gives the values of the variables $x_1, x_2, \dots, x_n$ and the Lagrange multiplier  $\lambda$ that optimize the original function subject to the given constraint.
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 ***23.L1 and L2 regularization***
