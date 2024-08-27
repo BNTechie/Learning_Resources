@@ -270,16 +270,11 @@ The coefficients estimated by OLS represent the change in the dependent variable
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-17. ***ReLU***
+***17. ReLU***
 
 ReLU (Rectified Linear Unit) is one of the most widely used activation functions in deep learning and neural networks. It plays a significant role in enabling neural networks to learn complex patterns by introducing non-linearity into the model.
 
-
-## ReLU (Rectified Linear Unit)
-
-ReLU (Rectified Linear Unit) is a popular activation function used in neural networks, particularly in deep learning. It introduces non-linearity into the model, allowing neural networks to learn complex patterns.
-
-### Mathematical Representation
+***Mathematical Representation***
 
 The ReLU function is defined as:
 
