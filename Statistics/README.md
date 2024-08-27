@@ -565,10 +565,6 @@ MSE is widely used in:
 - **Model Optimization:** Serving as a loss function in machine learning algorithms to guide the model during training.
 - **Forecasting:** Assessing the accuracy of predictive models in time series analysis.
 
-------------------------------------------------------------------------------------------------------------------------------------
-22. MSE+L2 Reg
-
-
 -------------------------------------------------------------------------------------------------------------------------------------
 ***23. Eigen vectors***
 
@@ -610,8 +606,48 @@ Eigenvectors are used in various data science applications, such as:
 - **Image Processing:** Compressing and enhancing images.
 - **Graph Theory:** Analyzing graph structures through spectral clustering.
 ----------------------------------------------------------------------------------------------------------------------------------
-24. Entropy
+***24. Entropy***
 
+Entropy is a measure of uncertainty or randomness in a set of data. In the context of information theory and data science, entropy quantifies the amount of uncertainty or impurity in a dataset, particularly in classification tasks. It is a key concept used in various algorithms, such as decision trees, where it helps to determine the best feature to split the data by calculating how much information gain is achieved by the split.
+
+Key Points:
+
+Uncertainty Measure: Entropy quantifies the unpredictability of a dataset, with higher entropy indicating more disorder or randomness.
+
+Information Gain: In decision tree algorithms, entropy is used to calculate information gain, which measures the reduction in entropy after a dataset is split based on a particular feature.
+
+Binary Classification: In a binary classification task, entropy is lowest (zero) when all data points belong to a single class and highest when the classes are perfectly balanced.
+
+***Mathematical Representation***
+
+For a binary classification problem, where $p_1$ is the probability of one class and $p_2$ is the probability of the other class, entropy $H$ is defined as:
+
+```math
+H(X) = -\sum_{i=1}^{n} p_i \log_2(p_i)
+```
+
+Where:
+-  $p_i$ is the probability of class $i$ in the dataset.
+-   $n$ is the number of classes (for binary classification, $n = 2$).
+
+In a binary classification context, this simplifies to:
+
+```math
+H(X) = -[p_1 \log_2(p_1) + p_2 \log_2(p_2)]
+```
+***Interpretation***
+
+- **Entropy = 0:** Indicates that the dataset is perfectly homogeneous (all instances belong to one class).
+- **Higher Entropy:** Indicates more uncertainty or impurity in the dataset, meaning the data is more mixed between classes.
+- **Maximum Entropy:** Occurs when the classes are equally distributed, indicating the highest level of uncertainty.
+
+***Applications***
+
+Entropy is used in various applications, including:
+
+- **Decision Trees:** Calculating information gain to determine the best feature to split the data.
+- **Machine Learning:** Assessing the impurity of a node or a dataset in classification problems.
+- **Information Theory:** Measuring the amount of information or surprise in a random variable.
 
 ------------------------------------------------------------------------------------------------------------------------------
 ***25. KMeans***
