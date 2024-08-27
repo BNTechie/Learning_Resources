@@ -934,7 +934,63 @@ To find the extrema, we take partial derivatives of  $\mathcal{L}$ with respect 
 ```
 
 Solving these equations simultaneously gives the values of the variables $x_1, x_2, \dots, x_n$ and the Lagrange multiplier  $\lambda$ that optimize the original function subject to the given constraint.
+---------------------------------------------------------------------------------------------------------------------------------------
+***L1 and L2 regularization***
 
-****Summary****
+L1 and L2 regularization are techniques used in machine learning to prevent overfitting by adding a penalty term to the cost function of a model. Overfitting occurs when a model becomes too complex and starts capturing noise in the training data, leading to poor generalization on new, unseen data. Regularization helps by constraining the model's coefficients, thus encouraging simpler models that generalize better.
 
-The Lagrange multiplier method is an essential tool in data science for solving constrained optimization problems. By incorporating the constraint into the objective function, it allows for efficient optimization, especially in complex models like support vector machines and regularized regression.
+***Key Points:***
+
+- L1 Regularization (Lasso):
+
+Adds a penalty equal to the absolute value of the magnitude of coefficients.
+Encourages sparsity, meaning it tends to drive some coefficients to zero, effectively performing feature selection.
+The penalty term for L1 regularization is 
+
+​
+- L2 Regularization (Ridge):
+
+Adds a penalty equal to the square of the magnitude of coefficients.
+Encourages smaller coefficients but does not drive them exactly to zero, so all features are retained.
+The penalty term for L2 regularization is 
+
+​
+- Combination (Elastic Net):
+
+Combines L1 and L2 regularization to take advantage of both techniques, offering a balance between the two.
+
+***Mathematical Representation***
+
+The cost function with L1 regularization is:
+
+```math
+J(\theta) = \text{Cost Function} + \lambda \sum_{i=1}^{n} |\theta_i|
+```
+
+Where:
+- $J(\theta)$ is the regularized cost function.
+- $\lambda$ is the regularization parameter, controlling the strength of the penalty.
+- $\theta_i$ are the model parameters (coefficients).
+
+L2 Regularization (Ridge)
+
+L2 regularization, also known as Ridge regression, adds a penalty term to the loss function proportional to the square of the coefficients' magnitudes. This discourages large coefficients but does not shrink them to zero, thus retaining all features but shrinking their impact.
+
+## L2 Regularization (Ridge)
+
+L2 regularization adds a penalty term to the cost function, equal to the sum of the squared values of the coefficients. This encourages smaller coefficient values, helping to prevent overfitting while retaining all features in the model.
+
+### Mathematical Representation
+
+The cost function with L2 regularization is:
+```math
+J(\theta) = \text{Cost Function} + \lambda \sum_{i=1}^{n} \theta_i^2
+```
+
+Where:
+- $J(\theta)$ is the regularized cost function.
+- $\lambda$ is the regularization parameter, controlling the strength of the penalty.
+- $\theta_i$ are the model parameters (coefficients).
+
+
+
