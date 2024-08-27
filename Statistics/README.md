@@ -929,10 +929,9 @@ To find the extrema, we take partial derivatives of $\mathcal{L}$ with respect t
 ```
 ```math
 \frac{\partial \mathcal{L}}{\partial \lambda} = 0
-``
+```
 
 Solving these equations simultaneously gives the values of the variables $x_1, x_2, \dots, x_n$ and the Lagrange multiplier $\lambda$ that optimize the original function subject to the given constraint.
-```
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
