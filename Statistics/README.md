@@ -368,7 +368,6 @@ The coefficients estimated by OLS represent the change in the dependent variable
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 ***16. F1 score***
-## F1 Score
 
 The F1 Score is a metric used to evaluate the performance of a classification model, particularly in scenarios where the dataset is imbalanced. It combines precision and recall into a single metric by calculating their harmonic mean.
 
@@ -396,7 +395,7 @@ Where:
 - **F1 Score = 0**: Poor precision and recall (worst model performance).
 - The F1 Score ranges between 0 and 1, where 1 indicates the best possible performance, and 0 indicates the worst.
 
-### Applications
+***Applications***
 
 The F1 Score is useful in:
 - **Imbalanced Classification Problems:** Where one class is much more frequent than the other, making accuracy an unreliable metric.
@@ -496,9 +495,37 @@ The output of the softmax function is a probability distribution, where each ele
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
-20. R2 score
+***20. R2 score***
 
+$R²$ Score, also known as the coefficient of determination, is a statistical measure that represents the proportion of the variance for a dependent variable that is explained by an independent variable or variables in a regression model. It provides an indication of how well the model's predictions approximate the real data points. The R² score is commonly used to assess the goodness of fit of a regression model.
 
+***Mathematical Representation***
+
+The $R^2$ Score is defined as:
+
+```math
+R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
+```
+
+Where:
+- $y_i$ is the actual value of the dependent variable.
+- $\hat{y}_i$ is the predicted value from the model.
+- $\bar{y}$ is the mean of the actual values.
+- $\sum_{i=1}^{n} (y_i - \hat{y}_i)^2$ is the sum of squares of residuals (also known as SSR or RSS).
+- $\sum_{i=1}^{n} (y_i - \bar{y})^2$ is the total sum of squares (TSS), representing the total variance in the data.
+
+### Interpretation
+
+- **R² = 1:** The model perfectly explains the variance in the data.
+- **R² = 0:** The model does not explain any of the variance, equivalent to using the mean of the data as the prediction.
+- **Negative R²:** Indicates that the model performs worse than simply using the mean of the target variable as a prediction.
+
+***Applications***
+
+The $R²$ Score is widely used in regression analysis to evaluate models such as:
+- **Linear Regression:** Assessing how well the independent variables explain the variation in the dependent variable.
+- **Polynomial Regression:** Determining the fit of non-linear relationships.
+- **Multiple Regression:** Evaluating the combined effect of multiple independent variables on the dependent variable.
 
 -----------------------------------------------------------------------------------------------------------------------------------
 21. MSE
