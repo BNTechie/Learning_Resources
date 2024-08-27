@@ -162,7 +162,53 @@ Here, $ \theta^T X $ represents the weighted sum of the input features.
 - **Neural Networks:** Introducing non-linearity into the model, allowing it to learn complex patterns.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-***8. Correlation***
+***8.Correlation***
+
+Correlation is a statistical measure that describes the strength and direction of a linear relationship between two variables. It quantifies how much two variables change together and is widely used in data science to understand the relationship between different features in a dataset. Correlation is fundamental in exploratory data analysis, feature selection, and in building predictive models.
+
+***Key Points:***
+
+Range: The correlation coefficient ranges from -1 to 1.
+- +1: Perfect positive correlation (as one variable increases, the other increases proportionally).
+- 0: No correlation (no linear relationship between the variables).
+- -1: Perfect negative correlation (as one variable increases, the other decreases proportionally).
+
+Types of Correlation:
+
+***Pearson Correlation:*** Measures linear relationships between continuous variables.
+
+***Spearman Rank Correlation:*** Measures monotonic relationships (not necessarily linear),using rank orders.
+
+***Kendall Tau Correlation:*** Measures the association between two variables using concordant and discordant pairs.
+
+***Pearson Correlation Coefficient***
+
+The most common type of correlation is the Pearson correlation coefficient, which is defined as:
+
+```math
+r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2} \sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2}}
+```
+
+Where:
+- $r$ is the Pearson correlation coefficient.
+- $x_i$ and $y_i$ are the individual data points of variables $X$ and $Y$, respectively.
+- $ \bar{x} $ and $ \bar{y}$ are the mean values of variables $X$ and $Y$, respectively.
+- $ n $ is the number of data points.
+
+***Interpretation***
+
+- **r = 1:** Perfect positive linear correlation.
+- **r = 0:** No linear correlation.
+- **r = -1:** Perfect negative linear correlation.
+
+***Applications***
+
+Correlation is widely used in:
+
+- **Exploratory Data Analysis (EDA):** Identifying relationships between features in a dataset.
+- **Feature Selection:** Selecting features that are highly correlated with the target variable.
+- **Predictive Modeling:** Understanding how changes in one variable might predict changes in another.
+
  ---------------------------------------------------------------------------------------------------------------------------------------
 ***10. Cosine Similarity***
 
