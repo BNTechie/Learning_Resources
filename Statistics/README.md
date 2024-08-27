@@ -932,10 +932,10 @@ To find the extrema, we take partial derivatives of  $\mathcal{L}$ with respect 
 ```math
 \frac{\partial \mathcal{L}}{\partial \lambda} = 0
 ```
-
 Solving these equations simultaneously gives the values of the variables $x_1, x_2, \dots, x_n$ and the Lagrange multiplier  $\lambda$ that optimize the original function subject to the given constraint.
 ---------------------------------------------------------------------------------------------------------------------------------------
-***L1 and L2 regularization***
+
+***23.L1 and L2 regularization***
 
 L1 and L2 regularization are techniques used in machine learning to prevent overfitting by adding a penalty term to the cost function of a model. Overfitting occurs when a model becomes too complex and starts capturing noise in the training data, leading to poor generalization on new, unseen data. Regularization helps by constraining the model's coefficients, thus encouraging simpler models that generalize better.
 
@@ -958,6 +958,7 @@ The penalty term for L2 regularization is \lambda \sum_{i=1}^{n} \theta_i^2
 - Combination (Elastic Net):
 
 Combines L1 and L2 regularization to take advantage of both techniques, offering a balance between the two.
+
 
 ***L1 Regularization (Lasso)***
 
@@ -986,6 +987,7 @@ L2 regularization adds a penalty term to the cost function, equal to the sum of 
 ***Mathematical Representation***
 
 The cost function with L2 regularization is:
+
 ```math
 J(\theta) = \text{Cost Function} + \lambda \sum_{i=1}^{n} \theta_i^2
 ```
