@@ -57,6 +57,11 @@ Data scientists use a variety of methods to deploy machine learning models. Here
 - Platforms like Algorithmia, MLflow, and TensorFlow Serving provide infrastructure and tools specifically for deploying and managing machine learning models.
 - **Pros**: Designed for ML models, provide model management tools.
 - **Cons**: Can be expensive, may require integration with other tools.
+
+
+A Blog on deploying Ml Model: https://machinelearningmastery.com/a-practical-guide-to-deploying-machine-learning-models/
+
+
 # Machine Learning Algorithms:
 
 _***XGBoost**
